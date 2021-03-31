@@ -3,11 +3,12 @@
 - [Visual Studio Code markdown preview](https://code.visualstudio.com/docs/languages/markdown)
     - Ctrl + Shift + V
 
+- `표시되어있는 문제` 다시 풀어보기
 
 - - -
 ## BaekJoon
 
-### - BFS & DFS
+> ### - BFS & DFS
 - 1260 (DFS와 BFS)
 
   : dfs와 bfs를 구현하는 기본 문제
@@ -27,3 +28,9 @@
 - 2644 (촌수계산)
 
   : bfs를 이용해 노드 간 최단거리 구하기
+
+- `7569 (토마토)`
+
+  : bfs를 이용한 탐색 최소 시간 구하기
+
+  -> 메모리 제한 주의
