@@ -60,3 +60,12 @@ Sort | O(NlogN) | list.sort()
 
 - 2468 (안전 영역)  
   : dfs를 이용해 행렬에서 섬 영역이 가장 많아질 때의 섬 영역 개수 구하기
+
+
+
+- - -
+## Programmers
+
+> ### - Union Find
+- [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)  
+  : union find 사용해서 네트워크 수 구하기
