@@ -5,6 +5,29 @@
 
 - `표시되어있는 문제` 다시 풀어보기
 
+
+
+- - -
+## [Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
+- [reference blog](https://wayhome25.github.io/python/2017/06/14/time-complexity/)
+
+> ### List
+
+Operation | Big-O | Example
+  :---:   | :---: |  :---:
+Slice | O(end-start) | list[start:end]
+Compare | O(N) | list1 == list2
+Insert | O(N) | list.insert(location, value)
+Delete | O(N) | del list[index]
+Remove | O(N) | list.remove(value)
+Containment |	O(N) | target in list
+Copy | O(N) | list.copy()
+Extreme value | O(N) | min(list) / max(list)
+Reverse | O(N) | list.reverse()
+Sort | O(NlogN) | list.sort()  
+
+
+
 - - -
 ## BaekJoon
 
