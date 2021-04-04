@@ -66,6 +66,10 @@ Sort | O(NlogN) | list.sort()
 - - -
 ## Programmers
 
+> ### - SQL
+- [오랜 기간 보호한 동물(2)](https://programmers.co.kr/learn/courses/30/lessons/59411)  
+  : MySQL, Oracle
+
 > ### - Union Find
 - [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)  
   : union find 사용해서 네트워크 수 구하기
