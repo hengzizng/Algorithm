@@ -73,3 +73,13 @@ Sort | O(NlogN) | list.sort()
 > ### - Union Find
 - [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)  
   : union find 사용해서 네트워크 수 구하기
+
+
+
+- - -
+## LeetCode
+
+> ### - DFS & BFS
+- [200. number-of-islands](https://leetcode.com/problems/number-of-islands)  
+  -> Submission Detail : https://leetcode.com/submissions/detail/477283404/  
+  : DFS 사용해서 섬의 개수 구하기  
