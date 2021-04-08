@@ -80,6 +80,12 @@ Sort | O(NlogN) | list.sort()
 ## LeetCode
 
 > ### - DFS & BFS
-- [200. number-of-islands](https://leetcode.com/problems/number-of-islands)  
+- [200. number of islands](https://leetcode.com/problems/number-of-islands)  
   -> Submission Detail : https://leetcode.com/submissions/detail/477283404/  
   : DFS 사용해서 섬의 개수 구하기  
+
+> ### - Hash Table
+- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)  
+  -> Submission 1 Detail : https://leetcode.com/submissions/detail/478144422/  
+  -> Submission 2 Detail : https://leetcode.com/submissions/detail/478146900/  
+  : 슬라이딩 윈도우, 투 포인터, 해시 테이블을 사용해 중복된 문자가 없는 가장 긴 부분 문자열 구하기  
