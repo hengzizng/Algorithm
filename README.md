@@ -62,6 +62,10 @@ Sort | O(NlogN) | list.sort()
   : dfs를 이용해 행렬에서 섬 영역이 가장 많아질 때의 섬 영역 개수 구하기
 
 
+> ### - MST(Minimum Spanning Tree, 최소 신장 트리)
+- 1922 (네트워크 연결)  
+  : 크루스칼(& Union Find)을 이용해 컴퓨터들을 연결하는 데 드는 최소 비용 구하기
+
 
 - - -
 ## Programmers
