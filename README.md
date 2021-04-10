@@ -89,6 +89,11 @@ Sort | O(NlogN) | list.sort()
   -> Submission 2 Detail : https://leetcode.com/submissions/detail/465584076/  
   : dfs를 사용해 번호에 해당하는 문자들의 조합 만들기 (1: stack 사용 / 2: 재귀 사용)
 
+- [46. Permutations](https://leetcode.com/problems/permutations)  
+  -> Submission 1 Detail : https://leetcode.com/submissions/detail/478906183/  
+  -> Submission 2 Detail : https://leetcode.com/submissions/detail/478908313/  
+  :  dfs를 사용한 순열 만들기
+
 
 > ### - Hash Table
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)  
