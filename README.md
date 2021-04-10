@@ -27,7 +27,7 @@ Reverse | O(N) | list.reverse()
 Sort | O(NlogN) | list.sort()  
 
 
-
+- - -
 - - -
 ## BaekJoon
 
@@ -83,6 +83,12 @@ Sort | O(NlogN) | list.sort()
 - [200. number of islands](https://leetcode.com/problems/number-of-islands)  
   -> Submission Detail : https://leetcode.com/submissions/detail/477283404/  
   : DFS 사용해서 섬의 개수 구하기  
+
+- [17. letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)  
+  -> Submission 1 Detail : https://leetcode.com/submissions/detail/478811528/  
+  -> Submission 2 Detail : https://leetcode.com/submissions/detail/465584076/  
+  : dfs를 사용해 번호에 해당하는 문자들의 조합 만들기 (1: stack 사용 / 2: 재귀 사용)
+
 
 > ### - Hash Table
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)  
