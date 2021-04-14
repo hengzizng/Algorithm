@@ -90,6 +90,10 @@ Sort | O(NlogN) | list.sort()
 - [오랜 기간 보호한 동물(2)](https://programmers.co.kr/learn/courses/30/lessons/59411)  
   : MySQL, Oracle
 
+- [우유와 요거트가 담긴 장바구니](https://programmers.co.kr/learn/courses/30/lessons/62284)
+  : MySQL(INNER JOIN 사용), Oracle(INTERSECT 사용)
+
+
 > ### - Union Find
 - [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)  
   : union find 사용해서 네트워크 수 구하기
