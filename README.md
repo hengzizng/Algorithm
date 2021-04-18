@@ -68,6 +68,9 @@ Sort | O(NlogN) | list.sort()
   : dfs를 이용해 팀에 속하지 않는 학생 수 구하기  
   -> 시간초과 주의
 
+- 4963 (섬의 개수)  
+  : dfs를 이용해 섬의 개수 구하기
+
 
 > ### - MST(Minimum Spanning Tree, 최소 신장 트리)
 - 1922 (네트워크 연결)  
@@ -124,7 +127,7 @@ Sort | O(NlogN) | list.sort()
 > ### - DFS & BFS
 - [200. number of islands](https://leetcode.com/problems/number-of-islands)  
   -> Submission Detail : https://leetcode.com/submissions/detail/477283404/  
-  : DFS 사용해서 섬의 개수 구하기  
+  : dfs 사용해서 섬의 개수 구하기  
 
 - [17. letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)  
   -> Submission 1 Detail : https://leetcode.com/submissions/detail/478811528/  
