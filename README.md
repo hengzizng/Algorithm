@@ -75,6 +75,9 @@ Sort | O(NlogN) | list.sort()
   : bfs를 이용한 탐색 최소 시간 구하기  
   -> 시간초과 주의
 
+- 2146 (다리 만들기)  
+  : bfs를 이용한 섬과 섬을 잇는 최단 경로 구하기
+
 
 > ### - MST(Minimum Spanning Tree, 최소 신장 트리)
 - 1922 (네트워크 연결)  
