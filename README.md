@@ -106,6 +106,7 @@ Sort | O(NlogN) | list.sort()
 
 > ### - Dynamic Programming
 - 2839 (설탕 배달)  
+- 1463 (1로 만들기)
 
 
 > ### - Else
