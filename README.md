@@ -145,6 +145,9 @@ Sort | O(NlogN) | list.sort()
   : union find 사용해서 네트워크 수 구하기
 
 
+> ### - Dynamic Programming
+- 정수 삼각형  
+
 
 - - -
 ## LeetCode
