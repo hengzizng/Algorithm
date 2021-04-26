@@ -146,9 +146,14 @@ Sort | O(NlogN) | list.sort()
   : union find 사용해서 네트워크 수 구하기
 
 
+> ### - Dijkstra
+- [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)  
+  : dijkstra 알고리즘 사용해서 최단거리 중 가장 멀리 있는 노드의 수 구하기
+
+
 > ### - Dynamic Programming
-- 정수 삼각형  
-- 등굣길  
+- [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)  
+- [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)  
 
 
 - - -
