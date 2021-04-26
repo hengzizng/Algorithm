@@ -148,6 +148,7 @@ Sort | O(NlogN) | list.sort()
 
 > ### - Dynamic Programming
 - 정수 삼각형  
+- 등굣길  
 
 
 - - -
