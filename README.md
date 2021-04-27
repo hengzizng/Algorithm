@@ -118,7 +118,7 @@ Sort | O(NlogN) | list.sort()
 
 
 > ### - Else
-- 2331 (반복수열)
+- 2331 (반복수열)  
   : 특정 연산을 통해 반복되는 수를 제외한 나머지 수들 구하기
 
 - 1000 (A+B)  
@@ -154,6 +154,11 @@ Sort | O(NlogN) | list.sort()
 > ### - Dynamic Programming
 - [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)  
 - [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)  
+
+
+> ### - Else
+- 다단계 칫솔 판매  
+
 
 
 - - -
