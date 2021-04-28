@@ -154,6 +154,7 @@ Sort | O(NlogN) | list.sort()
 > ### - Dynamic Programming
 - [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)  
 - [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)  
+- [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897)  
 
 
 > ### - Else
