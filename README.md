@@ -86,6 +86,11 @@ Sort | O(NlogN) | list.sort()
   -> 다양한 테스트 케이스 실행 필요
 
 
+  > ### - Union Find
+- 16562 (친구비)  
+  : union find를 이용해 최소 친구 비용 구하기  
+
+
 > ### - MST(Minimum Spanning Tree, 최소 신장 트리)
 - 1922 (네트워크 연결)  
   : 크루스칼(& Union Find)을 이용해 컴퓨터들을 연결하는 데 드는 최소 비용 구하기
