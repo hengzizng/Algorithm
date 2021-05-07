@@ -172,6 +172,10 @@ Sort | O(NlogN) | list.sort()
 - [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897)  
 
 
+> ### - Greedy
+- [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)  
+
+
 > ### - Else
 - 다단계 칫솔 판매  
 
