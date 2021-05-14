@@ -89,7 +89,7 @@ Sort | O(NlogN) | list.sort()
   : dfs를 이용해 리프 노드 개수 구하기  
 
 
-  > ### - Union Find
+> ### - Union Find
 - 16562 (친구비)  
   : union find를 이용해 최소 친구 비용 구하기  
 
@@ -133,6 +133,7 @@ Sort | O(NlogN) | list.sort()
 - 1932 (정수 삼각형)  
 - 1912 (연속합)  
 - 2156 (포도주 시식)  
+- `9251 (LCS)`  
 
 
 > ### - Else
