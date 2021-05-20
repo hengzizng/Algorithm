@@ -11,26 +11,20 @@ def make_ripe(riped_tomato, answer_info):
         row, col, time = queue.popleft()
         answer_info[1] += 1
         
-        if row > 0 and box[row - 1][col] == 0:
-            queue.append((row - 1, col, time + 1))
-            box[row - 1][col] = 1
-        if row < N - 1 and box[row + 1][col] == 0:
-            queue.append((row + 1, col, time + 1))
-            box[row + 1][col] = 1
-        if col > 0 and box[row][col - 1] == 0:
-            queue.append((row, col - 1, time + 1))
-            box[row][col - 1] = 1
-        if col < M - 1 and box[row][col + 1] == 0:
-            queue.append((row, col + 1, time + 1))
-            box[row][col + 1] = 1
+        for x, y in next_position:
+            x, y = row + x, col + y
+            if 0 <= x < N and 0 <= y < M and box[x][y] == 0:
+                queue.append((x, y, time + 1))
+                box[x][y] = 1
     
     return time
 
 
+next_position = [[-1, 0], [1, 0], [0, -1], [0, 1]]
 # M: 가로, N: 세로
 M, N = map(int, read().split())
 # box: 토마토 상태, riped_tomato: 익은 토마토들의 위치
-box, riped_tomato,  = [], []
+box, riped_tomato = [], []
 # answer_info: [토마토가 익기까지 최소 날짜, 체크한 위치 수]
 answer_info = [-1, 0]
 for row in range(N):
