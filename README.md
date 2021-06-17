@@ -99,6 +99,9 @@ Sort | O(NlogN) | list.sort()
   : 빙산이 녹아서 분리되는 최초의 시간 구하기  
   -> 현재 python 시간초과로 pypy3 으로 제출
 
+- 1012 (유기농 배추)  
+  : bfs나 dfs를 사용해 영역의 개수 구하기
+
 
 > ### - Union Find
 - 16562 (친구비)  
