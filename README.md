@@ -197,6 +197,9 @@ Sort | O(NlogN) | list.sort()
 - 1244 (스위치 켜고 끄기)  
   : 구현, 시뮬레이션
 
+- 2493 (탑)  
+  : 스택  
+
 - - -
 ## Programmers
 
