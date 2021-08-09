@@ -280,5 +280,8 @@ Sort | O(NlogN) | list.sort()
 - - -
 ## SW Expert Academy
 
-> ### - Two Pointer
+> ### - Two Pointer  
 - 9229 (한빈이와 Spot Mart)  
+
+> ### - Else  
+- 1228 (암호문1)  
