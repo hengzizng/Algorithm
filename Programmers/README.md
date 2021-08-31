@@ -52,3 +52,4 @@
 > ### - Else
 
 -   다단계 칫솔 판매
+-   [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301)
