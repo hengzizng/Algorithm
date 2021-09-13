@@ -55,3 +55,4 @@
 -   [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301)
 -   [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)
 -   [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256)
+-   [로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484)
