@@ -8,7 +8,7 @@
 
 from collections import deque
 import sys
-sys.stdin = open("SWExpertAcademy/1218input.txt")
+sys.stdin = open("TestCase/SWExpertAcademy/1218input.txt")
 
 brackets = {')' : '(', ']' : '[', '}' : '{', '>' : '<'}
 

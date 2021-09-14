@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.util.Arrays;
 
-public class Problem2309 {
+public class BJ2309 {
 	
 	public static String input = "20\r\n" + 
 			"7\r\n" + 

@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.StringTokenizer;
 
-public class Problem1158 {
+public class BJ1158 {
 	public static String str = "7 3";
 
 	public static void main(String[] args) throws IOException {

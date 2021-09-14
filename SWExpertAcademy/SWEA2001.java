@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.util.StringTokenizer;
 
-public class Problem2001 {
+public class SWEA2001 {
 	public static String input = "1\r\n" + 
 			"5 2\r\n" + 
 			"1 3 3 6 7\r\n" + 
@@ -15,7 +15,7 @@ public class Problem2001 {
 			"9 13 4 7 3";
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-//		System.setIn(new FileInputStream("input.txt"));
+//		System.setIn(new FileInputStream("TestCase/SWExpertAcademy/2001input.txt"));
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 //		in = new BufferedReader(new StringReader(input));
 

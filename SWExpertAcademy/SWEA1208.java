@@ -1,13 +1,10 @@
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.StringTokenizer;
 
-public class Problem1208 {
+public class SWEA1208 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		System.setIn(new FileInputStream("1208input.txt"));
+		System.setIn(new FileInputStream("TestCase/SWExpertAcademy/1208input.txt"));
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		
 		StringBuilder sb = new StringBuilder();

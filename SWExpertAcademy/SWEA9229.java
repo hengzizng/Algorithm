@@ -5,7 +5,7 @@ import java.io.StringReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Problem9229 {
+public class SWEA9229 {
 
 	public static String str = "4\r\n" + "3 45\r\n" + "20 20 20\r\n" + "6 10\r\n" + "1 2 5 8 9 11\r\n" + "4 100\r\n"
 			+ "80 80 60 60\r\n" + "4 20\r\n" + "10 5 10 16";

@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.StringTokenizer;
 
-public class Problem2605 {
+public class BJ2605 {
 	
 	public static String str = "5\n"
 			+ "0 1 1 3 2";

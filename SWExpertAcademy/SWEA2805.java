@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StringReader;
 
-public class Problem2805 {
+public class SWEA2805 {
 	public static String str = "1\r\n" + 
 			"5\r\n" + 
 			"14054\r\n" + 
@@ -14,7 +14,7 @@ public class Problem2805 {
 			"52212";
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		System.setIn(new FileInputStream("2805input.txt"));
+		System.setIn(new FileInputStream("TestCase/SWExpertAcademy/2805input.txt"));
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 //		in = new BufferedReader(new StringReader(str));
 		

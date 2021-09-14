@@ -6,7 +6,7 @@
 # 코드길이
 
 import sys
-sys.stdin = open("SWExpertAcademy/5215input.txt")
+sys.stdin = open("TestCase/SWExpertAcademy/5215input.txt")
 
 
 def combination(count, score, calorie):

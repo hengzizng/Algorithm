@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("SWExpertAcademy/1873input.txt")
+sys.stdin = open("TestCase/SWExpertAcademy/1873input.txt")
 
 def shoot():
     dx, dy = tank[0] + dxdy[tank[2]][0], tank[1] + dxdy[tank[2]][1]

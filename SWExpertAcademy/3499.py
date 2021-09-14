@@ -6,7 +6,7 @@
 # 코드길이
 
 import sys
-sys.stdin = open("SWExpertAcademy/3499input.txt")
+sys.stdin = open("TestCase/SWExpertAcademy/3499input.txt")
 
 T = int(input())
 for tc in range(1, T + 1):

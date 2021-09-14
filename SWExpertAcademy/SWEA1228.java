@@ -1,20 +1,13 @@
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.StringReader;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
-public class Problem1228 {
+public class SWEA1228 {
 	public static String str = "11\n" + "449047 855428 425117 532416 358612 929816 313459 311433 472478 589139 568205\n"
 			+ "7\n"
 			+ "I 1 5 400905 139831 966064 336948 119288 I 8 6 436704 702451 762737 557561 810021 771706 I 3 8 389953 706628 552108 238749 661021 498160 493414 377808 I 13 4 237017 301569 243869 252994 I 3 4 408347 618608 822798 370982 I 8 2 424216 356268 I 4 10 512816 992679 693002 835918 768525 949227 628969 521945 839380 479976";
 
 	public static void main(String[] args) throws IOException {
-		System.setIn(new FileInputStream("1228input.txt"));
+		System.setIn(new FileInputStream("TestCase/SWExpertAcademy/1228input.txt"));
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 //		in = new BufferedReader(new StringReader(str));
 		StringBuilder sb = new StringBuilder();

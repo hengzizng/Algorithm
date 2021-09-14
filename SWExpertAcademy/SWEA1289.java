@@ -4,11 +4,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class Problem1289 {
+public class SWEA1289 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		
-		System.setIn(new FileInputStream("1289input.txt"));
+		System.setIn(new FileInputStream("TestCase/SWExpertAcademy/1289input.txt"));
 
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		int T = Integer.parseInt(in.readLine()); // 테스트케이스의 수

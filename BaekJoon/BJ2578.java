@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.util.StringTokenizer;
 
-public class Problem2578 {
+public class BJ2578 {
 	
 	public static String str = "11 12 2 24 10\n"
 			+ "16 1 13 3 25\n"

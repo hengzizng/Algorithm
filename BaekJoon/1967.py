@@ -1,6 +1,6 @@
 from collections import defaultdict, deque
 import sys
-sys.stdin = open("BaekJoon/1967.txt", "r")
+sys.stdin = open("TestCase/BaekJoon/1967input.txt", "r")
 read = sys.stdin.readline
 
 

@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Problem17478 {
+public class BJ17478 {
 
 	public static void chatbot(String underBar, int count) {
 		

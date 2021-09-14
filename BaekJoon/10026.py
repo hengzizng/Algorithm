@@ -1,7 +1,7 @@
 import sys
 
 sys.setrecursionlimit(10**6)
-sys.stdin = open("BaekJoon/10026.txt")
+sys.stdin = open("TestCase/BaekJoon/10026input.txt")
 read = sys.stdin.readline
 
 def blueCheck(i, j):

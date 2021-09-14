@@ -6,7 +6,7 @@
 # 코드길이
 
 import sys
-sys.stdin = open("SWExpertAcademy/1233input.txt")
+sys.stdin = open("TestCase/SWExpertAcademy/1233input.txt")
 
 def is_number(target):
     if '0' <= target <= '9':

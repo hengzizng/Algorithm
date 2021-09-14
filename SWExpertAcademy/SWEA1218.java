@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-public class Problem1218 {
+public class SWEA1218 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		Map<Character, Character> bracket = new HashMap<Character, Character>() {{
@@ -16,7 +16,7 @@ public class Problem1218 {
 			put('>', '<'); 
 		}};
 
-		System.setIn(new FileInputStream("1218input.txt"));
+		System.setIn(new FileInputStream("TestCase/SWExpertAcademy/1218input.txt"));
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		for (int tc = 1; tc <= 10; tc++) {

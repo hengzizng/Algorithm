@@ -5,7 +5,7 @@ import java.io.StringReader;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class Problem2493 {
+public class BJ2493 {
 	
 	static String str = "5\n"
 			+ "6 9 5 7 4";

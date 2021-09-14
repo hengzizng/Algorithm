@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("SWExpertAcademy/1208input.txt")
+sys.stdin = open("TestCase/SWExpertAcademy/1208input.txt")
 
 for tc in range(1, 10 + 1):
     dump = int(input())

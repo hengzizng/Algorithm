@@ -5,14 +5,14 @@ import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.util.StringTokenizer;
 
-public class Problem1873 {
+public class SWEA1873 {
 	public static String str = "1\r\n" + "3 7\r\n" + "***....\r\n" + "*-..#**\r\n" + "#<.****\r\n" + "23\r\n"
 			+ "SURSSSSUSLSRSSSURRDSRDS";
 	public static int[][] dxdy = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } }; // U, D, L, R
 	public static char[] directSign = { '^', 'v', '<', '>' };
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		System.setIn(new FileInputStream("1873input.txt"));
+		System.setIn(new FileInputStream("TestCase/SWExpertAcademy/1873input.txt"));
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 //		in = new BufferedReader(new StringReader(str));
 

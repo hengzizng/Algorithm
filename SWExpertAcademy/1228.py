@@ -6,7 +6,7 @@
 # 코드길이
 
 import sys
-sys.stdin = open("SWExpertAcademy/1228input.txt")
+sys.stdin = open("TestCase/SWExpertAcademy/1228input.txt")
 
 for tc in range(1, 10 + 1):
     N = int(input()) # 원본 암호문의 길이

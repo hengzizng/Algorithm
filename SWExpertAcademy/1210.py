@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("SWExpertAcademy/1210input.txt")
+sys.stdin = open("TestCase/SWExpertAcademy/1210input.txt")
 
 dxdy = [[0, -1], [0, 1], [-1, 0]]
 LEN = 100

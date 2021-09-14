@@ -5,12 +5,12 @@ import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.util.StringTokenizer;
 
-public class Problem1210 {
+public class SWEA1210 {
 	final static int SIZE = 100;
 	final static int TC = 10;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		System.setIn(new FileInputStream("1210input.txt"));
+		System.setIn(new FileInputStream("TestCase/SWExpertAcademy/1210input.txt"));
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
 		StringBuilder sb = new StringBuilder();

@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("SWExpertAcademy/2805input.txt")
+sys.stdin = open("TestCase/SWExpertAcademy/2805input.txt")
 
 # 61,236 kb
 # 메모리

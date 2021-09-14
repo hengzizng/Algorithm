@@ -6,10 +6,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Problem1225 {
+public class SWEA1225 {
 
 	public static void main(String[] args) throws IOException {
-		System.setIn(new FileInputStream("1225input.txt"));
+		System.setIn(new FileInputStream("TestCase/SWExpertAcademy/1225input.txt"));
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		
