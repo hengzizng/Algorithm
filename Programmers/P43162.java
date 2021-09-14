@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 
-class Solution {
+class P43162 {
     static int[] networks;
     
     public int find(int target) {
