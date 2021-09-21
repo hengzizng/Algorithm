@@ -61,3 +61,5 @@
 -   [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048)
 -   [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835)
     : 완전탐색 & 백트래킹
+-   [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
+    : 완전탐색
