@@ -63,3 +63,4 @@
     : 완전탐색 & 백트래킹
 -   [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
     : 완전탐색
+-   [없는 숫자 더하기](https://programmers.co.kr/learn/courses/30/lessons/86051)
