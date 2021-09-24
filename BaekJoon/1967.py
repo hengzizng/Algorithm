@@ -4,50 +4,34 @@ sys.stdin = open("TestCase/BaekJoon/1967input.txt", "r")
 read = sys.stdin.readline
 
 
-def getDiameter(leafs):
-    distances = defaultdict(list)
-    diameter = 0
-    visited = leafs
-    queue = deque()
+def dfs(node):
+    stack = deque()
+    visited = set()
 
-    for leaf in leafs:
-        track = set([leaf])
-        queue.append((leaf, 0, track))
+    stack.append((node, 0))
+    visited.add(node)
 
-    while queue:
-        node, weight, track = queue.popleft()
-
+    while stack:
+        node, weight = stack.pop()
+        if weight > diameter[1]:
+            diameter[0] = node
+            diameter[1] = weight
+        
         for next_weight, next_node in linked[node]:
-            if distances[node]:
-                next_weight += max(distances[node])
-            else:
-                next_weight += weight
-                
-            if next_node not in visited and next_node not in track:
+            if next_node not in visited:
                 visited.add(next_node)
-                track.add(next_node)
-                queue.append((next_node, next_weight, track))
-            print("node", node, "next_node", next_node, "next_weight", next_weight)
-            distances[next_node].append(next_weight)
-
-    print(distances)
-    
-    return diameter
+                stack.append((next_node, weight + next_weight))
 
 
 n = int(read()) # 노드의 개수
 linked = defaultdict(list)
-leafs = set(range(1, n + 1))
 for _ in range(n - 1):
     parent, child, weight = map(int, read().split())
     linked[parent].append((weight, child))
     linked[child].append((weight, parent))
-    if parent in leafs:
-        leafs.remove(parent)
 
-diameter = 0
-diameter = getDiameter(leafs)
-# for leaf in leafs:
-#     diameter = max(diameter, getDiameter(leaf))
+diameter = [-1, 0] # 지름의 한쪽 끝 노드 번호, 지름의 길이
+dfs(1)
+dfs(diameter[0])
 
-print(diameter)
+print(diameter[1])
