@@ -68,3 +68,4 @@
 -   [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501)
 -   [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
 -   [내적](https://programmers.co.kr/learn/courses/30/lessons/70128)
+-   [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977)
