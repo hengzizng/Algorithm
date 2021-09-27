@@ -24,6 +24,11 @@
 -   [`보호소에서 중성화한 동물`](https://programmers.co.kr/learn/courses/30/lessons/59045)  
     : MySQL(INNER JOIN 사용)
 
+> ### - BFS & DFS
+
+-   [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
+    : DFS로 조합 구하기
+
 > ### - Stack & Queue
 
 -   [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)
