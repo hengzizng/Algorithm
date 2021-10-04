@@ -81,3 +81,4 @@
 -   [`완주하지 못한 선수`](https://programmers.co.kr/learn/courses/30/lessons/42576)
     -> 아이디어 혼자 다시 생각해보기
 -   [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
+-   [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
