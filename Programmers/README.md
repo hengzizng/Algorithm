@@ -28,6 +28,8 @@
 
 -   [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
     : DFS로 조합 구하기
+-   [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)  
+    : 풀이 2 > bfs 알고리즘 사용해서 최단거리 중 가장 멀리 있는 노드의 수 구하기
 
 > ### - Stack & Queue
 
@@ -42,7 +44,7 @@
 > ### - Dijkstra
 
 -   [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)  
-    : dijkstra 알고리즘 사용해서 최단거리 중 가장 멀리 있는 노드의 수 구하기
+    : 풀이 1 > dijkstra 알고리즘 사용해서 최단거리 중 가장 멀리 있는 노드의 수 구하기
 
 > ### - Dynamic Programming
 
