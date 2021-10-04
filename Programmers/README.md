@@ -75,3 +75,6 @@
 -   [내적](https://programmers.co.kr/learn/courses/30/lessons/70128)
 -   [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977)
 -   [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
+-   [`입국심사`](https://programmers.co.kr/learn/courses/30/lessons/43238)
+    : 이분탐색으로 심사를 받을 수 있는 최소 시간 구하기
+    -> 아이디어 혼자 다시 생각해보기
