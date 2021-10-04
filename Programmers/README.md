@@ -32,6 +32,7 @@
 > ### - Stack & Queue
 
 -   [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)
+-   [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
 
 > ### - Union Find
 
@@ -54,6 +55,10 @@
 
 -   [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
 -   [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
+
+> ### - Simulation
+
+-   [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485)
 
 > ### - Else
 
@@ -81,4 +86,3 @@
 -   [`완주하지 못한 선수`](https://programmers.co.kr/learn/courses/30/lessons/42576)
     -> 아이디어 혼자 다시 생각해보기
 -   [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
--   [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
