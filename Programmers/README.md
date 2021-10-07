@@ -78,3 +78,4 @@
 -   [부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612)
 -   [상호평가](https://programmers.co.kr/learn/courses/30/lessons/83201)
 -   [직업군 추천하기](https://programmers.co.kr/learn/courses/30/lessons/84325)
+-   [모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512)
