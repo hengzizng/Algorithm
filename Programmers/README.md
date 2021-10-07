@@ -75,3 +75,4 @@
 -   [내적](https://programmers.co.kr/learn/courses/30/lessons/70128)
 -   [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977)
 -   [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
+-   [부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612)
