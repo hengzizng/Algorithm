@@ -80,3 +80,4 @@
 -   [직업군 추천하기](https://programmers.co.kr/learn/courses/30/lessons/84325)
 -   [모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512)
 -   [복서 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/85002)
+-   [입실 퇴실](https://programmers.co.kr/learn/courses/30/lessons/86048)
