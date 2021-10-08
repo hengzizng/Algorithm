@@ -30,6 +30,8 @@
     : DFS로 조합 구하기
 -   [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)  
     : 풀이 2 > bfs 알고리즘 사용해서 최단거리 중 가장 멀리 있는 노드의 수 구하기
+-   [퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021)  
+    : bfs를 사용해 퍼즐 조각과 빈 칸을 찾아 맞출 수 있는 칸 수 구하기
 
 > ### - Stack & Queue
 
@@ -52,6 +54,8 @@
 -   [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)
 -   [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897)
 -   [`N으로 표현`](https://programmers.co.kr/learn/courses/30/lessons/42895)
+-   [퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021)  
+    : bfs를 사용해 퍼즐 조각과 빈 칸을 찾아 맞출 수 있는 칸 수 구하기
 
 > ### - Greedy
 
