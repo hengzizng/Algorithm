@@ -28,10 +28,13 @@
 
 -   [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
     : DFS로 조합 구하기
+-   [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)  
+    : 풀이 2 > bfs 알고리즘 사용해서 최단거리 중 가장 멀리 있는 노드의 수 구하기
 
 > ### - Stack & Queue
 
 -   [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)
+-   [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
 
 > ### - Union Find
 
@@ -41,7 +44,7 @@
 > ### - Dijkstra
 
 -   [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)  
-    : dijkstra 알고리즘 사용해서 최단거리 중 가장 멀리 있는 노드의 수 구하기
+    : 풀이 1 > dijkstra 알고리즘 사용해서 최단거리 중 가장 멀리 있는 노드의 수 구하기
 
 > ### - Dynamic Programming
 
@@ -54,6 +57,10 @@
 
 -   [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
 -   [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
+
+> ### - Simulation
+
+-   [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485)
 
 > ### - Else
 
@@ -82,3 +89,9 @@
 -   [복서 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/85002)
 -   [`입실 퇴실`](https://programmers.co.kr/learn/courses/30/lessons/86048)
 -   [`최소직사각형`](https://programmers.co.kr/learn/courses/30/lessons/86491)
+-   [`입국심사`](https://programmers.co.kr/learn/courses/30/lessons/43238)
+    : 이분탐색으로 심사를 받을 수 있는 최소 시간 구하기
+    -> 아이디어 혼자 다시 생각해보기
+-   [`완주하지 못한 선수`](https://programmers.co.kr/learn/courses/30/lessons/42576)
+    -> 아이디어 혼자 다시 생각해보기
+-   [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
