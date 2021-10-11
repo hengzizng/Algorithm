@@ -30,6 +30,9 @@
     : DFS로 조합 구하기
 -   [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)  
     : 풀이 2 > bfs 알고리즘 사용해서 최단거리 중 가장 멀리 있는 노드의 수 구하기
+-   [퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021)  
+    : bfs를 사용해 퍼즐 조각과 빈 칸을 찾아 맞출 수 있는 칸 수 구하기
+-   [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)  
 
 > ### - Stack & Queue
 
@@ -52,6 +55,8 @@
 -   [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)
 -   [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897)
 -   [`N으로 표현`](https://programmers.co.kr/learn/courses/30/lessons/42895)
+-   [퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021)  
+    : bfs를 사용해 퍼즐 조각과 빈 칸을 찾아 맞출 수 있는 칸 수 구하기
 
 > ### - Greedy
 
@@ -96,3 +101,6 @@
     -> 아이디어 혼자 다시 생각해보기
 -   [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
 -   [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
+-   [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845)
+-   [`124 나라의 숫자`](https://programmers.co.kr/learn/courses/30/lessons/12899)
+    -> 아이디어 혼자 다시 생각해보기
