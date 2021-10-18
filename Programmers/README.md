@@ -104,3 +104,4 @@
 -   [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845)
 -   [`124 나라의 숫자`](https://programmers.co.kr/learn/courses/30/lessons/12899)
     -> 아이디어 혼자 다시 생각해보기
+-   [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
