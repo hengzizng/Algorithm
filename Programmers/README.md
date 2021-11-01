@@ -106,3 +106,4 @@
     -> 아이디어 혼자 다시 생각해보기
 -   [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
 -   [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)
+-   [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
