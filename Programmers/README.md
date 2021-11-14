@@ -106,3 +106,4 @@
     -> 아이디어 혼자 다시 생각해보기
 -   [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
 -   [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)
+-   [약수의 개수와 덧셈](https://programmers.co.kr/learn/courses/30/lessons/77884)
