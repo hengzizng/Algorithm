@@ -1,26 +1,26 @@
-# Union-Find 사용
 def solution(n, computers):
+    def union(a, b):
+        a = find(a)
+        b = find(b)
+        
+        parents[b] = a
+        
     def find(target):
-        while target != network[target]:
-            network[target] = network[network[target]]
-            target = network[target]
+        while target != parents[target]:
+            parents[target] = parents[parents[target]]
+            target = parents[target]
+            
         return target
     
-    def union(computer1, computer2):
-        computer1 = find(computer1)
-        computer2 = find(computer2)
-        
-        network[max(computer1, computer2)] = min(computer1, computer2)
     
+    parents = list(range(n))
+    for com1 in range(n):
+        for com2 in range(n):
+            if computers[com1][com2] == 1:
+                union(com1, com2)
     
-    network = list(range(n))
+    networks = set()
+    for com in range(n):
+        networks.add(find(com))
     
-    for i in range(n):
-        for j in range(i+1, n):
-            if computers[i][j] == 1:
-                union(i, j)
-                
-    for i in range(n):
-        find(i)
-    
-    return len(set(network))
+    return len(networks)
