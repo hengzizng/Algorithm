@@ -110,3 +110,4 @@
 -   [약수의 개수와 덧셈](https://programmers.co.kr/learn/courses/30/lessons/77884)
 -   [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935)
 -   [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065)
+-   [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)
