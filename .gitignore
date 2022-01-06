@@ -3,3 +3,7 @@
 .vscode
 .vscode/*
 TEST/*
+/.metadata/
+/shelf/
+*.xml
+*.iml
