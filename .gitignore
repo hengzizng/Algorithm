@@ -1,9 +1,10 @@
 .DS_Store
 *.class
 .vscode
-.vscode/*
 TEST/*
-/.metadata/
-/shelf/
-*.xml
-*.iml
+.metadata
+.recommenders
+.classpath
+.project
+org.eclipse.*
+bin
