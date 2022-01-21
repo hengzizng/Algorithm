@@ -118,6 +118,7 @@
   -> 두번째 풀이 2시간
 
 - [14466 (소가 길을 건너간 이유 6)](https://www.acmicpc.net/problem/14466)
+- [20950 (미술가 미미)](https://www.acmicpc.net/problem/20950)
 
 > ### - Union Find
 
