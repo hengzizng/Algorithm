@@ -223,3 +223,4 @@
   : 스택
 
 - [11050 (이항 계수 1)](https://www.acmicpc.net/problem/11050)
+- [2075 (N번째 큰 수)](https://www.acmicpc.net/problem/2075)
