@@ -194,6 +194,7 @@
 
 - [16918 (봄버맨)](https://www.acmicpc.net/problem/16918)
 - [`22860 (폴더 정리 (small))`](https://www.acmicpc.net/problem/22860)
+- [`20055 (컨베이어 벨트 위의 로봇)`](https://www.acmicpc.net/problem/20055)
 
 > ### - Else
 
