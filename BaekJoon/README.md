@@ -119,6 +119,7 @@
 
 -   [14466 (소가 길을 건너간 이유 6)](https://www.acmicpc.net/problem/14466)
 -   [20950 (미술가 미미)](https://www.acmicpc.net/problem/20950)
+-   [14503 (로봇 청소기)](https://www.acmicpc.net/problem/14503)
 
 > ### - Union Find
 
