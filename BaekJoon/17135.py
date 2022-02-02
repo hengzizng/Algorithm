@@ -33,14 +33,14 @@ def set_attackers(start, count, attackers):
         # 궁수들이 위치할 곳을 정하면 게임 시작
         set_board()
         removed_count[1] = 0
-        
+
         # 행만큼 반복하면 모든 적은 무조건 사라진다
         for _ in range(N):
             play_game(attackers)
         removed_count[0] = max(removed_count)
 
         return
-    
+
     for index in range(start, M):
         attackers[count] = index
         set_attackers(index + 1, count + 1, attackers)
@@ -52,9 +52,9 @@ def play_game(attackers):
 
     for target in targets:
         if board[target[0]][target[1]] == 1:
-            removed_count[1] += 1 # 공격해서 없앤 적의 수를 증가시킨다
+            removed_count[1] += 1  # 공격해서 없앤 적의 수를 증가시킨다
             board[target[0]][target[1]] = 0
-    
+
     # 적들이 아래로 이동한다
     move_enemy()
 
@@ -64,14 +64,14 @@ def get_targets(attackers):
     targets = []
     queue = deque()
 
-    for attacker in attackers: # 궁수별로 반복
-        queue.append((N, attacker, 0)) # 행 위치, 열 위치, 거리
+    for attacker in attackers:  # 궁수별로 반복
+        queue.append((N, attacker, 0))  # 행 위치, 열 위치, 거리
         visited = set()
         distance, target = N * M, [-1, -1]
 
         while queue:
             now = queue.popleft()
-            
+
             for dr, dc in drdc:
                 nr, nc = now[0] + dr, now[1] + dc
 
@@ -79,26 +79,26 @@ def get_targets(attackers):
                 if distance < now[2]:
                     queue.clear()
                     break
-                
+
                 if nr < 0 or nr >= N or nc < 0 or nc >= M or now[2] + 1 > D or (nr, nc) in visited:
                     continue
-                
+
                 visited.add((nr, nc))
 
                 # 빈 칸일 떄
                 if board[nr][nc] == 0:
                     queue.append((nr, nc, now[2] + 1))
                     continue
-                
+
                 # 적을 찾았을 때
-                if now[2] + 1 < distance: # 이번에 적을 새로 찾았다면
+                if now[2] + 1 < distance:  # 이번에 적을 새로 찾았다면
                     distance = now[2] + 1
                     target[0], target[1] = nr, nc
-                elif now[2] + 1 == distance: # 이미 찾은 적과 거리가 같다면
-                    if nc < target[1]: # 더 왼쪽에 있는 적으로 변경
+                elif now[2] + 1 == distance:  # 이미 찾은 적과 거리가 같다면
+                    if nc < target[1]:  # 더 왼쪽에 있는 적으로 변경
                         target[0], target[1] = nr, nc
-        
-        if target[0] > -1: # 공격할 적을 찾았을 때만 추가
+
+        if target[0] > -1:  # 공격할 적을 찾았을 때만 추가
             targets.append(target)
 
     return targets
@@ -127,7 +127,7 @@ removed_count = [0, 0]
 
 # N: 행 수, M: 열 수, D: 공격 거리 제한
 N, M, D = map(int, read().split())
-init_board, board = [], [[0] * M for _ in range(N)] # 0: 빈 칸, 1: 적이 있는 칸
+init_board, board = [], [[0] * M for _ in range(N)]  # 0: 빈 칸, 1: 적이 있는 칸
 for n in range(N):
     init_board.append(list(map(int, read().split())))
 
