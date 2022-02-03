@@ -122,6 +122,8 @@
 -   [14503 (로봇 청소기)](https://www.acmicpc.net/problem/14503)
 -   [1726 (로봇)](https://www.acmicpc.net/problem/1726)
 -   [1707 (이분 그래프)](https://www.acmicpc.net/problem/1707)
+-   [`16234 (인구 이동)`](https://www.acmicpc.net/problem/16234)
+    `-> 시간 최적화 스스로 다시 생각해보기`
 
 > ### - Union Find
 
