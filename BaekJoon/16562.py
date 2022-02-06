@@ -2,8 +2,9 @@ def find(target):
     while target != friends[target]:
         friends[target] = friends[friends[target]]
         target = friends[target]
-    
+
     return target
+
 
 def union(x, y):
     x = find(x)
