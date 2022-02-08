@@ -206,6 +206,7 @@
 -   [14499 (주사위 굴리기)](https://www.acmicpc.net/problem/14499)
 -   [12100 (2048 (Easy))](https://www.acmicpc.net/problem/12100)
 -   [15683 (감시)](https://www.acmicpc.net/problem/15683)
+-   [1966 (프린터 큐)](https://www.acmicpc.net/problem/1966)
 
 > ### - Else
 
