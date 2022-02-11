@@ -18,8 +18,8 @@ for stopover in range(1, n+1):
             if a == b:
                 costs[a][b] = 0
             else:
-                costs[a][b] = min(costs[a][b], 
-                                   costs[a][stopover] + costs[stopover][b])
+                costs[a][b] = min(costs[a][b],
+                                  costs[a][stopover] + costs[stopover][b])
 
 for row in range(1, len(costs)):
     for col in range(1, len(costs[0])):
