@@ -210,6 +210,7 @@
 - [14891 (톱니바퀴)](https://www.acmicpc.net/problem/14891)
 - [`15685 (드래곤 커브)`](https://www.acmicpc.net/problem/15685)
 - [1547 (공)](https://www.acmicpc.net/problem/1547)
+- [`13460 (구슬 탈출 2)`](https://www.acmicpc.net/problem/13460)
 
 > ### - Else
 
