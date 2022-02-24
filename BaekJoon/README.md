@@ -212,6 +212,7 @@
 - [1547 (공)](https://www.acmicpc.net/problem/1547)
 - [13460 (구슬 탈출 2)](https://www.acmicpc.net/problem/13460)
 - [15653 (구슬 탈출 4)](https://www.acmicpc.net/problem/15653)
+- [20056 (마법사 상어와 파이어볼)](https://www.acmicpc.net/problem/20056)
 
 > ### - Else
 
