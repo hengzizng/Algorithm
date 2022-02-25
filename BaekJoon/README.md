@@ -214,6 +214,8 @@
 - [15653 (구슬 탈출 4)](https://www.acmicpc.net/problem/15653)
 - [20056 (마법사 상어와 파이어볼)](https://www.acmicpc.net/problem/20056)
 - [21608 (상어 초등학교)](https://www.acmicpc.net/problem/21608)
+- [`21609 (상어 중학교)`](https://www.acmicpc.net/problem/21609)  
+  : 기준 잘 확인
 
 > ### - Else
 
