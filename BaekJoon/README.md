@@ -217,6 +217,7 @@
 - [`21609 (상어 중학교)`](https://www.acmicpc.net/problem/21609)  
   : 기준 잘 확인
 - [13458 (시험 감독)](https://www.acmicpc.net/problem/13458)
+- [`14500 (테트로미노)`](https://www.acmicpc.net/problem/14500)  
 
 > ### - Else
 
