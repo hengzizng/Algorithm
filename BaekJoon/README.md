@@ -219,6 +219,7 @@
 - [13458 (시험 감독)](https://www.acmicpc.net/problem/13458)
 - [`14500 (테트로미노)`](https://www.acmicpc.net/problem/14500)
 - [14889 (스타트와 링크)](https://www.acmicpc.net/problem/14889)
+- [14501 (퇴사)](https://www.acmicpc.net/problem/14501)
 
 > ### - Else
 
