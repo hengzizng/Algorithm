@@ -220,6 +220,7 @@
 - [`14500 (테트로미노)`](https://www.acmicpc.net/problem/14500)
 - [14889 (스타트와 링크)](https://www.acmicpc.net/problem/14889)
 - [14501 (퇴사)](https://www.acmicpc.net/problem/14501)
+- [14890 (경사로)](https://www.acmicpc.net/problem/14890)
 
 > ### - Else
 
