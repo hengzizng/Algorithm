@@ -221,6 +221,7 @@
 - [14889 (스타트와 링크)](https://www.acmicpc.net/problem/14889)
 - [14501 (퇴사)](https://www.acmicpc.net/problem/14501)
 - [14890 (경사로)](https://www.acmicpc.net/problem/14890)
+- [`17142 (연구소 3)`](https://www.acmicpc.net/problem/17142)
 
 > ### - Else
 
