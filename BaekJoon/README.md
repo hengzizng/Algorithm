@@ -186,6 +186,7 @@
 - [10844 (쉬운 계단 수)](https://www.acmicpc.net/problem/10844)
 - [`12865 (평범한 배낭)`](https://www.acmicpc.net/problem/12865)
 - [11727 (2xn타일링2)](https://www.acmicpc.net/problem/11727)
+- [`2133 (타일 채우기)`](https://www.acmicpc.net/problem/2133)
 
 > ### - Simulation
 
