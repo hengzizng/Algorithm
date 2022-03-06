@@ -187,6 +187,7 @@
 - [`12865 (평범한 배낭)`](https://www.acmicpc.net/problem/12865)
 - [11727 (2xn타일링2)](https://www.acmicpc.net/problem/11727)
 - [`2133 (타일 채우기)`](https://www.acmicpc.net/problem/2133)
+- [9465 (스티커)](https://www.acmicpc.net/problem/9465)
 
 > ### - Simulation
 
