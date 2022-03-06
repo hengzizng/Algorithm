@@ -225,6 +225,7 @@
 - [14890 (경사로)](https://www.acmicpc.net/problem/14890)
 - [`17142 (연구소 3)`](https://www.acmicpc.net/problem/17142)
 - [`16235 (나무 제테크)`](https://www.acmicpc.net/problem/16235)
+- [`20061 (모노미노도미노 2)`](https://www.acmicpc.net/problem/20061)
 
 > ### - Else
 
