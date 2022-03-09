@@ -228,6 +228,7 @@
 - [`20061 (모노미노도미노 2)`](https://www.acmicpc.net/problem/20061)
 - [`17140 (이차원 배열과 연산)`](https://www.acmicpc.net/problem/17140)
 - [`23289 (온풍기 안녕!)`](https://www.acmicpc.net/problem/23289)
+- [`17779 (게리맨더링 2)`](https://www.acmicpc.net/problem/17779)
 
 > ### - Else
 
