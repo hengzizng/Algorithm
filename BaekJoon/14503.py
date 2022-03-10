@@ -13,7 +13,7 @@ def clean(r, c, d, count, area):
         nd = (d + 3) % 4
         nr, nc = r + drdc[nd][0], c + drdc[nd][1]
 
-        if area[nr][nc] == 0: 
+        if area[nr][nc] == 0:
             # a. 왼쪽 방향에 아직 청소하지 않은 공간이 존재한다면
             # 그 방향으로 회전한 다음 한 칸을 전진하고 1번부터 진행
             return clean(nr, nc, nd, count, area)
@@ -40,6 +40,7 @@ def clean(r, c, d, count, area):
 # 2-2. 청소할 공간이 없으면 -> 2 진행
 # 2-3. 이번 방향이 네번째 불가능이면 한칸 후진 -> 2 진행
 # 2-4. 후진도 못하면 작동 중지
+
 
 # 0: 북, 1: 동, 2: 남, 3: 서
 drdc = [[-1, 0], [0, 1], [1, 0], [0, -1]]
