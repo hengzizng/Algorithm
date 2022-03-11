@@ -229,6 +229,7 @@
 - [`17140 (이차원 배열과 연산)`](https://www.acmicpc.net/problem/17140)
 - [`23289 (온풍기 안녕!)`](https://www.acmicpc.net/problem/23289)
 - [`17779 (게리맨더링 2)`](https://www.acmicpc.net/problem/17779)
+- [`20058 (마법사 상어와 파이어스톰)`](https://www.acmicpc.net/problem/20058)
 
 > ### - Else
 
