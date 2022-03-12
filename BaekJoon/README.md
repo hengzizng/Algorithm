@@ -231,6 +231,7 @@
 - [`17779 (게리맨더링 2)`](https://www.acmicpc.net/problem/17779)
 - [`20058 (마법사 상어와 파이어스톰)`](https://www.acmicpc.net/problem/20058)
 - [`20057 (마법사 상어와 토네이도)`](https://www.acmicpc.net/problem/20057)
+- [21610 (마법사 상어와 비바라기)](https://www.acmicpc.net/problem/21610)
 
 > ### - Else
 
