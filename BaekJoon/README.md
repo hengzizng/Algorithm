@@ -124,6 +124,8 @@
 - [1707 (이분 그래프)](https://www.acmicpc.net/problem/1707)
 - [`16234 (인구 이동)`](https://www.acmicpc.net/problem/16234)
   `-> 시간 최적화 스스로 다시 생각해보기`
+- [`15684 (사다리 조작)`](https://www.acmicpc.net/problem/15684)  
+  -> 백트래킹
 
 > ### - Union Find
 
