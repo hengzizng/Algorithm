@@ -236,6 +236,7 @@
 - [21610 (마법사 상어와 비바라기)](https://www.acmicpc.net/problem/21610)
 - [`17837 (새로운 게임 2)`](https://www.acmicpc.net/problem/17837)
 - [23288 (주사위 굴리기 2)](https://www.acmicpc.net/problem/23288)
+- [`23290 (마법사 상어와 복제)`](https://www.acmicpc.net/problem/23290)
 
 > ### - Else
 
