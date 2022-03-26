@@ -1,33 +1,31 @@
-from collections import defaultdict, deque
 import sys
 read = sys.stdin.readline
 
 
+def union(node1, node2):
+    node1 = find(node1)
+    node2 = find(node2)
+
+    parents[max(node1, node2)] = min(node1, node2)
+
+
+def find(target):
+    while target != parents[target]:
+        parents[target] = parents[parents[target]]
+        target = parents[target]
+
+    return target
+
+
 N, M = map(int, read().split())
-graph = defaultdict(list)
+parents = list(range(N + 1))
 for _ in range(M):
     u, v = map(int, read().split())
-    graph[u].append(v)
-    graph[v].append(u)
+    union(u, v)
 
+parents_set = set()
+for node in range(1, N + 1):
+    parents[node] = find(node)
+    parents_set.add(parents[node])
 
-def dfs(graph, start):
-    linked = 1
-    left = set(range(1, N + 1))
-    stack = deque([start])
-
-    while stack:
-        node = stack.pop()
-
-        for next_node in graph[node]:
-            if next_node in left:
-                stack.append(next_node)
-                left.remove(next_node)
-        
-        if not stack and left:
-            linked += 1
-            stack.append(left.pop())
-
-    return linked
-
-print(dfs(graph, v))
+print(len(parents_set))
