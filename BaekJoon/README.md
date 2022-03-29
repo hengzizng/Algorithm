@@ -126,6 +126,7 @@
   `-> 시간 최적화 스스로 다시 생각해보기`
 - [`15684 (사다리 조작)`](https://www.acmicpc.net/problem/15684)  
   -> 백트래킹
+- [`17825 (주사위 윷놀이)`](https://www.acmicpc.net/problem/17825)
 
 > ### - Union Find
 
