@@ -239,6 +239,7 @@
 - [23288 (주사위 굴리기 2)](https://www.acmicpc.net/problem/23288)
 - [`23290 (마법사 상어와 복제)`](https://www.acmicpc.net/problem/23290)
 - [`17822 (원판 돌리기)`](https://www.acmicpc.net/problem/17822)
+- [14888 (연산자 끼워넣기)](https://www.acmicpc.net/problem/14888)
 
 > ### - Else
 
