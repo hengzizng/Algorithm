@@ -8,19 +8,20 @@ read = sys.stdin.readline
 def get_distance(start, end):
     return abs(start[0] - end[0]) + abs(start[1] - end[1])
 
+
 def can_go(home, stores, festival):
     if get_distance(festival, home) <= (20 * 50):
         return "happy"
-    
+
     visited = set()
     queue = deque([home])
-    
+
     while queue:
         now = queue.popleft()
 
         if get_distance(now, festival) <= (20 * 50):
             return "happy"
-        
+
         for store in stores:
             if (
                 get_distance(now, store) <= (20 * 50) and
