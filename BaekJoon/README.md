@@ -240,6 +240,7 @@
 - [`23290 (마법사 상어와 복제)`](https://www.acmicpc.net/problem/23290)
 - [`17822 (원판 돌리기)`](https://www.acmicpc.net/problem/17822)
 - [14888 (연산자 끼워넣기)](https://www.acmicpc.net/problem/14888)
+- [`21611 (마법사 상어와 블리자드)`](https://www.acmicpc.net/problem/21611)
 
 > ### - Else
 
