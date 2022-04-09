@@ -14,7 +14,7 @@ for _ in range(10):
             if ladders[r][c] == '2':
                 now[0] = r
                 now[1] = c
-    
+
     while now[0] > 0:
         ladders[now[0]][now[1]] = 0
         for dx, dy in dxdy:
@@ -24,5 +24,5 @@ for _ in range(10):
                 now[0] = dx
                 now[1] = dy
                 break
-    
+
     print("#" + tc, now[1])
