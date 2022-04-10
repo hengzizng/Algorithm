@@ -24,7 +24,7 @@
 
 > ### - Simulation
 
-- 2105 (디저트 카페)
+- `2105 (디저트 카페)`
 
 > ### - Dynameic Programming
 
