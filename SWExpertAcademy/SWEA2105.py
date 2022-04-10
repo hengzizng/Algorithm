@@ -1,6 +1,9 @@
 import sys
 sys.stdin = open("TestCase/SWExpertAcademy/2105input.txt")
 
+# DFS 풀이는 아래 블로그 참고
+# https://hesh1232.tistory.com/120
+
 
 def get_dessert_count(move_count, r, c):
     # 다음에 확인할 위치
