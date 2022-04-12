@@ -53,7 +53,7 @@
 
 - [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)  
   : 풀이 1 > dijkstra 알고리즘 사용해서 최단거리 중 가장 멀리 있는 노드의 수 구하기
-- [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)  
+- [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
 
 > ### - Dynamic Programming
 
@@ -74,6 +74,7 @@
 - [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485)
 - [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)
 - [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341)
+- [`기둥과 보 설치`](https://programmers.co.kr/learn/courses/30/lessons/43162)
 
 > ### - Else
 
