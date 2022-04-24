@@ -6,7 +6,7 @@ public class SWEA4014 {
 
     public static void main(String[] args) throws Exception {
         ////// test
-        System.setIn(new FileInputStream("src/4014input.txt"));
+        System.setIn(new FileInputStream("testcase/4014input.txt"));
         ////// test
 
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
