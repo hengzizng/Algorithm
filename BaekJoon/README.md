@@ -242,6 +242,7 @@
 - [14888 (연산자 끼워넣기)](https://www.acmicpc.net/problem/14888)
 - [`21611 (마법사 상어와 블리자드)`](https://www.acmicpc.net/problem/21611)
 - [5373 (큐빙)](https://www.acmicpc.net/problem/5373)
+- [23291 (어항 정리)](https://www.acmicpc.net/problem/23291)
 
 > ### - Else
 
