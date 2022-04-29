@@ -278,3 +278,5 @@
   : 스택
 
 - [`14400 (편의점 2)`](https://www.acmicpc.net/problem/14400)
+- [`1944 (복제 로봇)`](https://www.acmicpc.net/problem/1944)  
+  : (BFS + MST) or (Dijkstra + MST)
