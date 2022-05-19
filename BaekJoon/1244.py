@@ -2,6 +2,7 @@ def change_multiple(switches, num):
     for i in range(num, len(switches) + 1, num):
         switches[i - 1] = '1' if switches[i - 1] == '0' else '0'
 
+
 def change_near(switches, num):
     left, right = num - 1, num - 1
 
@@ -26,7 +27,7 @@ for i in range(student_count):
         change_multiple(switches, num)
     else:
         change_near(switches, num)
-    
+
 for i in range(switch_count):
     if (i != 0 and i % 20 == 0):
         print()
