@@ -127,6 +127,7 @@
 - [`15684 (사다리 조작)`](https://www.acmicpc.net/problem/15684)  
   -> 백트래킹
 - [`17825 (주사위 윷놀이)`](https://www.acmicpc.net/problem/17825)
+- [17471 (게리맨더링)](https://www.acmicpc.net/problem/17471)
 
 > ### - Union Find
 
