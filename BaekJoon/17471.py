@@ -60,7 +60,6 @@ for i in range(N):
 
 # 각 선거구에 포함될 구역의 수를 정한다.
 for group1_count in range(1, N // 2 + 1):
-    group2_count = N - group1_count
     # 정해진 구역의 수에 따라 구역을 선택한다.
     select_group1(group1_count, 0, 0, 0, [0] * N)
 
