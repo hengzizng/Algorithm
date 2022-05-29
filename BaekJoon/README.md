@@ -61,6 +61,7 @@
 - [`17825 (주사위 윷놀이)`](https://www.acmicpc.net/problem/17825)
 - [17471 (게리맨더링)](https://www.acmicpc.net/problem/17471)
 - [12908 (텔레포트 3)](https://www.acmicpc.net/problem/12908)
+- [`6087 (레이저 통신)`](https://www.acmicpc.net/problem/6087)
 
 > ### - Union Find
 
