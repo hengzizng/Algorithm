@@ -9,7 +9,7 @@
   - [BaekJoon](https://www.acmicpc.net)
   - [Programmers](https://programmers.co.kr/learn/challenges)
   - [SW Expert Academy](https://swexpertacademy.com/main/main.do)
-  - [LeetCode](https://leetcode.com/problemset/all/)
+  - [LeetCode](https://leetcode.com/problemset/all)
 
 ---
 
