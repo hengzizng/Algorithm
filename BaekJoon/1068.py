@@ -44,6 +44,8 @@ print(dfs1(start, delete_node))
 '''
 
 # 지워진 노드들과 그 자식들을 먼저 제거 후 부모 리스트에 없는 노드 카운트
+
+
 def dfs2(deleted_node):
     stack = deque([deleted_node])
     parents[deleted_node] = deleted_node
