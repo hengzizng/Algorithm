@@ -3,7 +3,7 @@ from heapq import *
 import sys
 
 
-def dijkstra(start, is_reverse = False):
+def dijkstra(start, is_reverse=False):
     costs = [float('inf')] * (N + 1)
     costs[start] = 0
     visited = set()
