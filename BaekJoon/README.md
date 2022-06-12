@@ -4,8 +4,6 @@
 
   - Ctrl + Shift + V
 
-- `다시 풀어볼 문제들`
-
 ---
 
 ## BaekJoon
