@@ -179,3 +179,4 @@
 - [`1944 (복제 로봇)`](https://www.acmicpc.net/problem/1944)  
   : (BFS + MST) or (Dijkstra + MST)
 - [`1655 (가운데를 말해요)`](https://www.acmicpc.net/problem/1655)
+- [`1927 (최소 힙)`](https://www.acmicpc.net/problem/1927)
