@@ -15,16 +15,16 @@ def push(val):
 
 
 def pop():
-    if not heap:
+    if len(heap) == 1:
         return 0
 
     # 가장 마지막 원소를 루트로 이동
-    heap[0], heap[-1] = heap[-1], heap[0]
+    heap[1], heap[-1] = heap[-1], heap[1]
     # 가장 작은 값 삭제
     val = heap.pop()
 
     # 이동한 원소가 자식 원소보다 작아질때까지 이동
-    target = 0
+    target = 1
     while target < len(heap):
         # 왼쪽 자식 인덱스, 오른쪽 자식 인덱스
         left, right = target * 2, target * 2 + 1
@@ -57,7 +57,7 @@ def pop():
     return val
 
 
-heap = []
+heap = [0]
 N = int(read())  # 연산의 개수
 for _ in range(N):
     x = int(read())  # 연산 정보
