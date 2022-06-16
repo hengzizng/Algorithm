@@ -158,6 +158,7 @@
 - [5373 (큐빙)](https://www.acmicpc.net/problem/5373)
 - [23291 (어항 정리)](https://www.acmicpc.net/problem/23291)
 - [17281 (⚾)](https://www.acmicpc.net/problem/17281)
+- [17780 (새로운 게임)](https://www.acmicpc.net/problem/17780)
 
 > ### - Else
 
