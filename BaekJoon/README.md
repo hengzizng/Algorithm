@@ -184,3 +184,4 @@
 - [`15591 (MooTube (Silver))`](https://www.acmicpc.net/problem/15591)
   : BFS or Union-Find
 - [`17182 (우주 탐사선)`](https://www.acmicpc.net/problem/17182)
+- [1992 (쿼드트리)](https://www.acmicpc.net/problem/1992)
