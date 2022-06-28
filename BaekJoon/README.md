@@ -63,6 +63,7 @@
 - [`4991 (로봇 청소기)`](https://www.acmicpc.net/problem/4991)
 - [`13459 (구슬 탈출)`](https://www.acmicpc.net/problem/13459)
 - [16637 (괄호 추가하기)](https://www.acmicpc.net/problem/16637)
+- [2638 (치즈)](https://www.acmicpc.net/problem/2638)
 
 > ### - Union Find
 
