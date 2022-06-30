@@ -35,7 +35,7 @@ def explode(visit, r, c):
     # 4개 이하이면 터지지 않는다.
     if len(targets) < 4:
         return 0
-    
+
     # 터진 곳을 빈 칸으로 만든다.
     for r, c in targets:
         board[r][c] = '.'
