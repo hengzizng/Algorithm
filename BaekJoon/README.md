@@ -161,6 +161,7 @@
 - [23291 (어항 정리)](https://www.acmicpc.net/problem/23291)
 - [17281 (⚾)](https://www.acmicpc.net/problem/17281)
 - [17780 (새로운 게임)](https://www.acmicpc.net/problem/17780)
+- [`8972 (미친 아두이노)`](https://www.acmicpc.net/problem/8972)
 
 > ### - Else
 
