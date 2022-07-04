@@ -123,3 +123,4 @@
 - [예산](https://programmers.co.kr/learn/courses/30/lessons/12982)
 - [두 개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644)
 - [`k진수에서 소수 개수 구하기`](https://programmers.co.kr/learn/courses/30/lessons/92335)
+- [다단계 칫솔 판매](https://programmers.co.kr/learn/courses/30/lessons/77486)
