@@ -65,6 +65,7 @@
 - [16637 (괄호 추가하기)](https://www.acmicpc.net/problem/16637)
 - [2638 (치즈)](https://www.acmicpc.net/problem/2638)
 - [11559 (Puyo Puyo)](https://www.acmicpc.net/problem/11559)
+- [`11967 (불켜기)`](https://www.acmicpc.net/problem/11967)
 
 > ### - Union Find
 
