@@ -4,7 +4,7 @@
 
   - Ctrl + Shift + V
 
------
+---
 
 ## BaekJoon
 
@@ -69,8 +69,8 @@
 
 > ### - Union Find
 
-- [16562 (친구비)](https://www.acmicpc.net/problem/16562)  
-  : union find를 이용해 최소 친구 비용 구하기
+- [16562 (친구비)](https://www.acmicpc.net/problem/16562)
+- [`4195 (친구 네트워크)`](https://www.acmicpc.net/problem/4195)
 
 > ### - MST(Minimum Spanning Tree, 최소 신장 트리)
 
