@@ -114,6 +114,7 @@
 - [`2133 (타일 채우기)`](https://www.acmicpc.net/problem/2133)
 - [9465 (스티커)](https://www.acmicpc.net/problem/9465)
 - [17070 (파이프 옮기기 1)](https://www.acmicpc.net/problem/17070)
+- [`12869 (뮤탈리스크)`](https://www.acmicpc.net/problem/12869)
 
 > ### - Simulation
 
