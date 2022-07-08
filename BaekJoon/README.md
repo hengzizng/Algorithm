@@ -66,6 +66,7 @@
 - [2638 (치즈)](https://www.acmicpc.net/problem/2638)
 - [11559 (Puyo Puyo)](https://www.acmicpc.net/problem/11559)
 - [`11967 (불켜기)`](https://www.acmicpc.net/problem/11967)
+- [`1043 (거짓말)`](https://www.acmicpc.net/problem/1043)
 
 > ### - Union Find
 
