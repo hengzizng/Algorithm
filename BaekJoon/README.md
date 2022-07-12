@@ -195,3 +195,4 @@
   : 비트 연산
 - [2164 (카드2)](https://www.acmicpc.net/problem/2164)
 - [`10836 (여왕벌)`](https://www.acmicpc.net/problem/10836)
+- [`16928 (뱀과 사다리 게임)`](https://www.acmicpc.net/problem/16928)
