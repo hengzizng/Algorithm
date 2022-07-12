@@ -50,22 +50,26 @@ public class SinglyLinkedList {
 
     // 연결 자체를 변경
     public void reverse() {
-        Node node = null;
+        Node temp = null;
+        Node rev = null;
         while (head != null) {
-            Node temp = head;
+            rev = head;
             head = head.next;
-            temp.next = node;
-            node = temp;
+            rev.next = temp;
+            temp = rev;
         }
-        head = node;
+        head = rev;
     }
 
     public static void main(String[] args) {
 
         SinglyLinkedList list = new SinglyLinkedList();
-        list.addFirst("1");
-        list.addFirst("2");
-        list.addFirst("3");
+//        list.addFirst("1");
+//        list.addFirst("2");
+//        list.addFirst("3");
+        list.addLast("1");
+        list.addLast("2");
+        list.addLast("3");
         list.addLast("4");
         list.addLast("5");
         list.printList();
