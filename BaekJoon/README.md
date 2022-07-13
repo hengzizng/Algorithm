@@ -135,7 +135,7 @@
 - [15683 (감시)](https://www.acmicpc.net/problem/15683)
 - [1966 (프린터 큐)](https://www.acmicpc.net/problem/1966)
 - [14891 (톱니바퀴)](https://www.acmicpc.net/problem/14891)
-- [`15685 (드래곤 커브)`](https://www.acmicpc.net/problem/15685)
+- [15685 (드래곤 커브)](https://www.acmicpc.net/problem/15685)
 - [1547 (공)](https://www.acmicpc.net/problem/1547)
 - [13460 (구슬 탈출 2)](https://www.acmicpc.net/problem/13460)
 - [15653 (구슬 탈출 4)](https://www.acmicpc.net/problem/15653)
