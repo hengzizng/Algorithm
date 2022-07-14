@@ -167,6 +167,7 @@
 - [17281 (⚾)](https://www.acmicpc.net/problem/17281)
 - [17780 (새로운 게임)](https://www.acmicpc.net/problem/17780)
 - [`8972 (미친 아두이노)`](https://www.acmicpc.net/problem/8972)
+- [`18500 (미네랄 2)`](https://www.acmicpc.net/problem/18500)
 
 > ### - Else
 
