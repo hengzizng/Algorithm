@@ -169,6 +169,7 @@
 - [`8972 (미친 아두이노)`](https://www.acmicpc.net/problem/8972)
 - [`18500 (미네랄 2)`](https://www.acmicpc.net/problem/18500)
 - [`16137 (견우와 직녀)`](https://www.acmicpc.net/problem/16137)
+- [`18428 (감시 피하기)`](https://www.acmicpc.net/problem/18428)
 
 > ### - Else
 
