@@ -8,7 +8,7 @@
 
 ## BaekJoon
 
-> ### - BFS & DFS
+> ### BFS & DFS
 
 - [1260 (DFS와 BFS)](https://www.acmicpc.net/problem/1260)
 - [2178 (미로 탐색)](https://www.acmicpc.net/problem/2178)
@@ -70,17 +70,17 @@
 - [2234 (성곽)](https://www.acmicpc.net/problem/2234)
 - [2660 (회장뽑기)](https://www.acmicpc.net/problem/2660)
 
-> ### - Union Find
+> ### Union Find
 
 - [16562 (친구비)](https://www.acmicpc.net/problem/16562)
 - [`4195 (친구 네트워크)`](https://www.acmicpc.net/problem/4195)
 
-> ### - MST(Minimum Spanning Tree, 최소 신장 트리)
+> ### MST(Minimum Spanning Tree, 최소 신장 트리)
 
 - [1922 (네트워크 연결)](https://www.acmicpc.net/problem/1922)
 - [6497 (전력난)](https://www.acmicpc.net/problem/6497)
 
-  > ### - Dijkstra
+  > ### Dijkstra
 
 - [1753 (최단경로)](https://www.acmicpc.net/problem/1753)
 - [1916 (최소비용 구하기)](https://www.acmicpc.net/problem/1916)
@@ -89,12 +89,12 @@
 - [2211 (네트워크 복구)](https://www.acmicpc.net/problem/2211)
 - [`5719 (거의 최단 경로)`](https://www.acmicpc.net/problem/5719)
 
-> ### - Floyd-Warshall
+> ### Floyd-Warshall
 
 - [11404 (플로이드)](https://www.acmicpc.net/problem/11404)
 - [1956 (운동)](https://www.acmicpc.net/problem/1956)
 
-  > ### - Dynamic Programming
+  > ### Dynamic Programming
 
 - [2839 (설탕 배달)](https://www.acmicpc.net/problem/2839)
 - [1463 (1로 만들기)](https://www.acmicpc.net/problem/1463)
@@ -119,7 +119,7 @@
 - [17070 (파이프 옮기기 1)](https://www.acmicpc.net/problem/17070)
 - [`12869 (뮤탈리스크)`](https://www.acmicpc.net/problem/12869)
 
-> ### - Simulation
+> ### Simulation
 
 - [1244 (스위치 켜고 끄기)](https://www.acmicpc.net/problem/1244)
 - [`19237 (어른 상어)`](https://www.acmicpc.net/problem/19237)
@@ -171,7 +171,7 @@
 - [`16137 (견우와 직녀)`](https://www.acmicpc.net/problem/16137)
 - [`18428 (감시 피하기)`](https://www.acmicpc.net/problem/18428)
 
-> ### - Else
+> ### Else
 
 - [2331 (반복수열)](https://www.acmicpc.net/problem/2331)
 - [1000 (A+B)](https://www.acmicpc.net/problem/1000)
