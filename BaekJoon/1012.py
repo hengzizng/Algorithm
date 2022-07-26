@@ -31,6 +31,7 @@ T = int(read())
 for _ in range(T):
     M, N, K = map(int, read().split())
     cabbage = set()
+    
     for _ in range(K):
         X, Y = map(int, read().split())
         cabbage.add((X, Y))
