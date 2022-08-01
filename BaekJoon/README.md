@@ -203,3 +203,4 @@
 - [`16928 (뱀과 사다리 게임)`](https://www.acmicpc.net/problem/16928)
 - [`13335 (트럭)`](https://www.acmicpc.net/problem/13335)
 - [`2138 (전구와 스위치)`](https://www.acmicpc.net/problem/2138)
+- [1715 (카드 정렬하기)](https://www.acmicpc.net/problem/1715)
