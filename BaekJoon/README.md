@@ -118,6 +118,7 @@
 - [9465 (스티커)](https://www.acmicpc.net/problem/9465)
 - [17070 (파이프 옮기기 1)](https://www.acmicpc.net/problem/17070)
 - [`12869 (뮤탈리스크)`](https://www.acmicpc.net/problem/12869)
+- [`10653 (마라톤 2)`](https://www.acmicpc.net/problem/10653)
 
 > ### Simulation
 
