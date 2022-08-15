@@ -4,7 +4,7 @@
 
   - Ctrl + Shift + V
 
------
+---
 
 ## BaekJoon
 
@@ -69,6 +69,7 @@
 - [`1043 (거짓말)`](https://www.acmicpc.net/problem/1043)
 - [2234 (성곽)](https://www.acmicpc.net/problem/2234)
 - [2660 (회장뽑기)](https://www.acmicpc.net/problem/2660)
+- [`2310 (어드벤처 게임)`](https://www.acmicpc.net/problem/2310)
 
 > ### Union Find
 
