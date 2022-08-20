@@ -125,3 +125,4 @@
 - [두 개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644)
 - [`k진수에서 소수 개수 구하기`](https://programmers.co.kr/learn/courses/30/lessons/92335)
 - [다단계 칫솔 판매](https://programmers.co.kr/learn/courses/30/lessons/77486)
+- [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
