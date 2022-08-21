@@ -74,22 +74,21 @@ for time_str, d_str in move_info:
         break
 
     # 2. 선분이 범위를 벗어난다면 종료
-    if nr < 0 or nr >= SIZE or nc < 0 or nc >= SIZE:
-        end_time = time_sum + time
-
-        # 위쪽 범위를 벗어났다면
-        if nr < 0 or nc < 0:
-            end_time += nr + 1
-        # 왼쪽 범위를 벗어났다면
-        elif nc < 0:
-            end_time += nc + 1
-        # 아래쪽 범위를 벗어났다면
-        elif nr >= SIZE:
-            end_time -= nr - SIZE
-        # 오른쪽 범위를 벗어났다면
-        elif nc >= SIZE:
-            end_time -= nc - SIZE
-
+    # 위쪽 범위를 벗어났다면
+    if nr < 0:
+        end_time = time_sum + time + nr + 1
+        break
+    # 왼쪽 범위를 벗어났다면
+    elif nc < 0:
+        end_time = time_sum + time + nc + 1
+        break
+    # 아래쪽 범위를 벗어났다면
+    elif nr >= SIZE:
+        end_time = time_sum + time - (nr - SIZE)
+        break
+    # 오른쪽 범위를 벗어났다면
+    elif nc >= SIZE:
+        end_time = time_sum + time - (nc - SIZE)
         break
 
     # 선분 생성
