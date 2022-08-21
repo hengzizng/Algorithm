@@ -1,0 +1,372 @@
+TestCase #1
+3
+4
+2 L
+2 L
+1 L
+5 R
+=> 7
+TestCase #2
+3
+3
+2 L
+4 L
+4 R
+=> 6
+TestCase #3
+3
+3
+2 R
+1 R
+10 R
+= 9
+TestCase #4
+3
+3
+2 R
+10 L
+4 R
+= 6
+TestCase #5
+3
+3
+2 L
+10 L
+4 R
+= 6
+TestCase #6
+3
+3
+10 L
+4 L
+4 R
+= 4
+TestCase #7
+3
+3
+2 L
+4 L
+4 R
+= 6
+TestCase #8
+3
+4
+2 L
+2 L
+1 L
+5 R
+= 7
+TestCase #9
+3
+4
+2 R
+2 R
+1 R
+5 L
+= 7
+TestCase #10
+3
+5
+2 R
+3 L
+1 L
+2 L
+10 L
+= 9
+TestCase #11
+3
+5
+2 R
+3 R
+1 R
+2 R
+10 L
+= 9
+TestCase #12
+3
+5
+2 R
+3 R
+1 R
+2 L
+10 L
+= 13
+TestCase #13
+3
+8
+3 R
+3 R
+6 R
+6 R
+6 R
+2 R
+10 L
+10 R
+= 32
+TestCase #14
+3
+4
+3 R
+3 R
+3 R
+3 R
+= 12
+TestCase #15
+3
+4
+3 R
+3 R
+3 R
+2 R
+14
+TestCase #16
+100000000
+4
+2 L
+2 L
+1 L
+5 R
+7
+TestCase #17
+1
+6
+1 L
+1 L
+2 L
+2 L
+2 L
+2 L
+9
+TestCase #18
+3
+8
+2 L
+2 L
+3 L
+4 L
+4 L
+5 L
+2 L
+7 L
+23
+TestCase #19
+3
+8
+2 L
+2 L
+3 L
+4 L
+4 L
+10 L
+2 L
+7 L
+21
+TestCase #20
+8
+11
+1 L
+4 R
+1 R
+8 L
+1 L
+8 R
+1 R
+8 L
+1 L
+6 L
+10 R
+40
+TestCase #21
+3
+1
+1 L
+5
+TestCase #22
+3
+1
+1 R
+5
+TestCase #23
+3
+2
+1 R
+1 R
+7
+TestCase #24
+3
+2
+1 R
+1 L
+5
+TestCase #25
+3
+1
+10 L
+4
+TestCase #26
+3
+3
+2 L
+4 L
+4 R
+6
+TestCase #27
+3
+3
+1 R
+1 R
+10 L
+7 
+TestCase #28
+3
+3
+1 R
+1 L
+10 L
+5
+TestCase #29
+3
+0
+4
+TestCase #30
+3
+14
+3 L
+1 L
+3 R
+1 R
+3 L
+1 L
+6 L
+1 L
+5 R
+1 R
+4 L
+3 L
+1 L
+2 L
+22
+TestCase #31
+3
+16
+3 L
+1 L
+3 R
+1 R
+3 L
+1 L
+6 L
+6 L
+1 L
+5 R
+1 R
+5 L
+4 L
+1 L
+3 R
+1 R
+49
+TestCase #32
+3
+16
+3 L
+1 L
+3 R
+1 R
+3 L
+1 L
+6 L
+6 L
+1 L
+5 R
+1 R
+5 L
+4 L
+1 L
+3 R
+2 R
+46
+TestCase #33
+3
+17
+3 L
+1 L
+3 R
+1 R
+3 L
+1 L
+6 L
+6 L
+1 L
+5 R
+1 R
+5 L
+4 L
+1 L
+3 R
+1 R
+3 L
+49
+TestCase #34
+3
+1
+1 L
+5
+TestCase #35
+1
+1
+1 L
+3
+TestCase #36
+3
+5
+3 L
+1 L
+6 L
+1 L
+2 L
+14
+TestCase #37
+3
+5
+3 L
+1 L
+6 L
+1 L
+2 R
+17
+TestCase #38
+3
+5
+3 L
+1 L
+6 L
+1 L
+3 R
+14
+TestCase #39
+3
+5
+3 L
+1 L
+6 L
+1 L
+100000 R
+14
+TestCase #40
+4
+4
+1 L
+1 L
+2 L
+1 L
+?
+TestCase #41
+4
+5
+1 L
+1 R
+1 R
+1 R
+10 L
+?
