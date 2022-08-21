@@ -52,29 +52,44 @@ drdc = [[-1, 0], [0, 1], [1, 0], [0, -1]]  # 북동남서
 L = int(read())
 SIZE = 2 * L + 1  # 격자의 실제 크기
 N = int(read())  # 방향 회전 수
-move_info = [list(read().strip().split()) for _ in range(N)] # 뱀 방향전환 정보
+move_info = [list(read().strip().split()) for _ in range(N)]  # 뱀 방향전환 정보
+move_info.append([str(SIZE), 'L'])  # 중간에 죽지 않을 경우 대비
 
 snake = []  # 뱀 정보(선분) [[왼쪽 위 행, 왼쪽 위 열, 방향(0: 세로, 1: 가로), 길이], ...]
 
 time_sum, end_time = 0, -1  # 시각, 뱀이 죽은 시각
 r, c, d = SIZE // 2, SIZE // 2, 1  # 머리의 행, 열 위치, 방향
-for time_str, d_str, in move_info:
+for time_str, d_str in move_info:
     time = int(time_str)
 
     # 선분의 다른 한쪽 끝
     nr, nc = r + (drdc[d][0] * time), c + (drdc[d][1] * time)
 
-    # 선분이 범위를 벗어난다면 위치와 시각을 설정하고 종료
-    if nr < 0 or nr >= SIZE or nc < 0 or nc >= SIZE:
-        time_sum += time
-        r, c = nr, nc
-        break
-
-    # 다른 선분과 겹치는지 확인
+    # move_info 마지막에 최대 길이의 선분을 넣었기 때문에 범위보다 겹치는지 먼저 확인!!
+    # 1. 다른 선분과 겹치는지 확인
     check_result = col_check(r, c, d, time) if c == nc else row_check(r, c, d, time)
     # 겹친다면 종료
     if check_result > 0:
         end_time = time_sum + check_result
+        break
+
+    # 2. 선분이 범위를 벗어난다면 종료
+    if nr < 0 or nr >= SIZE or nc < 0 or nc >= SIZE:
+        end_time = time_sum + time
+
+        # 위쪽 범위를 벗어났다면
+        if nr < 0 or nc < 0:
+            end_time += nr + 1
+        # 왼쪽 범위를 벗어났다면
+        elif nc < 0:
+            end_time += nc + 1
+        # 아래쪽 범위를 벗어났다면
+        elif nr >= SIZE:
+            end_time -= nr - SIZE
+        # 오른쪽 범위를 벗어났다면
+        elif nc >= SIZE:
+            end_time -= nc - SIZE
+
         break
 
     # 선분 생성
@@ -85,25 +100,5 @@ for time_str, d_str, in move_info:
 
     time_sum += time
     r, c = nr, nc
-
-
-# 마지막 이동으로 죽었다면
-if end_time == -1:
-    end_time = time_sum
-    # 위쪽 범위를 벗어났다면
-    if r < 0 or c < 0:
-        end_time += r + 1
-    # 왼쪽 범위를 벗어났다면
-    elif c < 0:
-        end_time += c + 1
-    # 아래쪽 범위를 벗어났다면
-    elif r >= SIZE:
-        end_time -= r - SIZE
-    # 오른쪽 범위를 벗어났다면
-    elif c >= SIZE:
-        end_time -= c - SIZE
-    # 자신의 몸에 부딪혔다면
-    else:
-        end_time += col_check(r, c, d, time) if d % 2 == 1 else row_check(r, c, d, time)
 
 print(end_time)
