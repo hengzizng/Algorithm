@@ -1,4 +1,5 @@
 import sys
+sys.stdin = open("TestCase/BaekJoon/10875input.txt")
 read = sys.stdin.readline
 
 
@@ -13,7 +14,7 @@ def check(r1, c1, d1, len1, r2, c2, d2, len2):
     if row_or_col_1 == 0 and row_or_col_2 == 0:
         if c1 == c2 and (r1 <= r2 <= r1 + len1 or r2 <= r1 <= r2 + len2):
             # 새로운 선분이 위에 있을 경우 (아래 방향)
-            if r1 <= r2:
+            if r1 < r2:
                 return r2 - r1
             # 새로운 선분이 밑에 있을 경우 (위 방향)
             else:
@@ -22,7 +23,7 @@ def check(r1, c1, d1, len1, r2, c2, d2, len2):
     elif row_or_col_1 == 1 and row_or_col_2 == 1:
         if r1 == r2 and (c1 <= c2 <= c1 + len1 or c2 <= c1 <= c2 + len2):
             # 새로운 선분이 왼쪽에 있을 경우 (오른쪽 방향)
-            if c1 <= c2:
+            if c1 < c2:
                 return c2 - c1
             # 새로운 선분이 오른쪽에 있을 경우 (왼쪽 방향)
             else:
@@ -79,6 +80,10 @@ def check_all(r, c, r1, c1, d1, len1):
 drdc = [[-1, 0], [0, 1], [1, 0], [0, -1]]  # 북동남서
 rotate_map = {'R': 1, 'L': 3}
 
+# ##### test
+# for tc in range(41):
+#     print(read())
+# ##### test
 SIZE = 2 * int(read()) + 1  # 격자의 실제 크기
 N = int(read())  # 방향 회전 수
 
@@ -133,3 +138,6 @@ for time_str, rotate_str in move_info:
     r, c = nr, nc
 
 print(end_time)
+# ##### test
+# print(end_time, read())
+# ##### test

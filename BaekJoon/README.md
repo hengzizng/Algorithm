@@ -173,7 +173,8 @@
 - [`18500 (미네랄 2)`](https://www.acmicpc.net/problem/18500)
 - [`16137 (견우와 직녀)`](https://www.acmicpc.net/problem/16137)
 - [`18428 (감시 피하기)`](https://www.acmicpc.net/problem/18428)
-- [2174 (감시 피하기)](https://www.acmicpc.net/problem/2174)
+- [2174 (로봇 시뮬레이션)](https://www.acmicpc.net/problem/2174)
+- [`10875 (뱀)`](https://www.acmicpc.net/problem/10875)
 
 > ### Else
 
