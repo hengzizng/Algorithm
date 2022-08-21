@@ -2,84 +2,106 @@ import sys
 read = sys.stdin.readline
 
 
-# 확인하려는 선분이 세로일 경우 겹치는 선분이 있는지 체크 (없을 경우 0 반환)
-def col_check(r, c, d, length):
-    # 확인하려는 선분의 위쪽
-    up_r = min(r, r + (drdc[d][0] * length))
-    # 확인하려는 선분이 다른 선분을 만나기까지 걸린 시간
-    # 겹치는 선분을 만나자마자 시간을 반환하는 것이 아닌 가장 가까운 선분을 찾아야 한다
-    time = float('inf')
+# 두 선분이 서로 만나는지 확인 (이동 중 몇초에 만나는지 반환)
+# 1: 새로 뱀이 이동중인 경로의 선분
+# 2: 이전에 이미 이동한 경로의 선분
+def check(r1, c1, d1, len1, r2, c2, d2, len2):
+    # 세로: 0, 가로: 1
+    row_or_col_1, row_or_col_2 = d1 % 2, d2 % 2
 
-    # 이전의 모든 선분과 겹치는지 확인
-    for nr, nc, nd, nlength in snake:
-        # 이번 선분도 세로일 경우
-        if nd == 0:
-            if c != nc or nr + nlength <= up_r or up_r + length <= nr:
-                continue
-            # 이번 선분과 겹칠 경우 (겹치는데 몇 초 걸리는지 반환)
-            # 뱀의 진행 방향에 따라 계산
-            now_time = (r - (nr + length)) if d == 0 else (nr - r)
-            time = min(time, now_time)
-        # 이번 선분은 가로일 경우
-        else:
-            # 이번 선분과 겹칠 경우 (겹치는데 몇 초 걸리는지 반환)
-            if up_r < nr < up_r + length and nc < c < nc + nlength:
-                now_time = abs(r - nr)
-                time = min(time, now_time)
+    # 두 선분 모두 세로
+    if row_or_col_1 == 0 and row_or_col_2 == 0:
+        if c1 == c2 and (r1 <= r2 <= r1 + len1 or r2 <= r1 <= r2 + len2):
+            # 새로운 선분이 위에 있을 경우 (아래 방향)
+            if r1 <= r2:
+                return r2 - r1
+            # 새로운 선분이 밑에 있을 경우 (위 방향)
+            else:
+                return (r1 + len1) - (r2 + len2)
+    # 두 선분 모두 가로
+    elif row_or_col_1 == 1 and row_or_col_2 == 1:
+        if r1 == r2 and (c1 <= c2 <= c1 + len1 or c2 <= c1 <= c2 + len2):
+            # 새로운 선분이 왼쪽에 있을 경우 (오른쪽 방향)
+            if c1 <= c2:
+                return c2 - c1
+            # 새로운 선분이 오른쪽에 있을 경우 (왼쪽 방향)
+            else:
+                return (c1 + len1) - (c2 + len2)
+    # 새로운 선분은 세로, 이전 선분은 가로
+    elif row_or_col_1 == 0 and row_or_col_2 == 1:
+        if r1 <= r2 <= r1 + len1 and c2 <= c1 <= c2 + len2:
+            # 새로운 선분 아래 방향
+            if d1 == 2:
+                return r2 - r1
+            # 새로운 선분 위 방향
+            else:
+                return (r1 + len1) - r2
+    # 새로운 선분은 가로, 이전 선분은 세로
+    elif row_or_col_1 == 1 and row_or_col_2 == 0:
+        if r2 <= r1 <= r2 + len2 and c1 <= c2 <= c1 + len1:
+            # 새로운 선분 오른쪽 방향
+            if d1 == 1:
+                return c2 - c1
+            # 새로운 선분 왼쪽 방향
+            else:
+                return (c1 + len1) - c2
 
-    return 0 if time == float('inf') else time
+    return -1
 
 
-# 확인하려는 선분이 가로일 경우 겹치는 선분이 있는지 체크 (없을 경우 0 반환)
-def row_check(r, c, d, length):
-    # 확인하려는 선분의 왼쪽, 오른쪽
-    left_c = min(c, c + (drdc[d][1] * length))
-    # 확인하려는 선분이 다른 선분을 만나기까지 걸린 시간
-    # 겹치는 선분을 만나자마자 시간을 반환하는 것이 아닌 가장 가까운 선분을 찾아야 한다
-    time = float('inf')
+# 이번 선분에 대해 만나는 선분이 있는지 확인
+# r, c: 시작 위치
+# r1, c1: 선분의 두 끝 중 왼쪽 위의 점
+def check_all(r, c, r1, c1, d1, len1):
+    # 첫 번째 이동인 경우
+    if not snake:
+        return -1
 
-    # 이전의 모든 선분과 겹치는지 확인
-    for nr, nc, nd, nlength in snake:
-        # 이번 선분은 세로일 경우
-        if nd == 0:
-            # 이번 선분과 겹칠 경우 (겹치는데 몇 초 걸리는지 반환)
-            if nr < r < nr + nlength and left_c < nc < left_c + length:
-                now_time = abs(c - nc)
-                time = min(time, now_time)
+    result = float('inf')
 
-        # 이번 선분도 가로일 경우
-        else:
-            if r != nr or nc + nlength <= left_c or left_c + length <= nc:
-                continue
-            # 이번 선분과 겹칠 경우 (겹치는데 몇 초 걸리는지 반환)
-            now_time = (nc - c) if d == 1 else (c - (nc + nlength))
-            time = min(time, now_time)
+    # 직전 선분을 제외한 모든 선분 확인
+    for i in range(len(snake) - 1):
+        r2, c2, d2, len2 = snake[i]
+        now_result = check(r1, c1, d1, len1, r2, c2, d2, len2)
+        # 만나는 선분이 있다면
+        if now_result > -1:
+            result = min(result, now_result)
+    # 이번 선분의 직전 선분은 마지막 위치가 겹치기 때문에 따로 처리
+    new_r1 = min(r + drdc[d1][0], r + (drdc[d1][0] * len1))
+    new_c1 = min(c + drdc[d1][1], c + (drdc[d1][1] * len1))
+    now_result = check(new_r1, new_c1, d1, len1 - 1, *snake[-1])
+    if now_result > -1:
+        result = min(result, now_result)
 
-    return 0 if time == float('inf') else time
+    return -1 if result == float('inf') else result
 
 
 drdc = [[-1, 0], [0, 1], [1, 0], [0, -1]]  # 북동남서
-L = int(read())
-SIZE = 2 * L + 1  # 격자의 실제 크기
+rotate_map = {'R': 1, 'L': 3}
+
+SIZE = 2 * int(read()) + 1  # 격자의 실제 크기
 N = int(read())  # 방향 회전 수
-move_info = [list(read().strip().split()) for _ in range(N)]  # 뱀 방향전환 정보
+
+move_info = [list(read().strip().split()) for _ in range(N)]  # 입력받은 뱀 방향전환 정보
 move_info.append([str(SIZE), 'L'])  # 중간에 죽지 않을 경우 대비
 
-snake = []  # 뱀 정보(선분) [[왼쪽 위 행, 왼쪽 위 열, 방향(0: 세로, 1: 가로), 길이], ...]
-
+snake = []  # 뱀 정보(선분) [[왼쪽 위 행, 왼쪽 위 열, 방향, 길이], ...]
 time_sum, end_time = 0, -1  # 시각, 뱀이 죽은 시각
-r, c, d = SIZE // 2, SIZE // 2, 1  # 머리의 행, 열 위치, 방향
-for time_str, d_str in move_info:
+r, c, d = SIZE // 2, SIZE // 2, 1  # 머리의 행, 열 위치(선분의 한쪽 끝), 방향
+for time_str, rotate_str in move_info:
     time = int(time_str)
+
+    if time == 0:
+        continue
 
     # 선분의 다른 한쪽 끝
     nr, nc = r + (drdc[d][0] * time), c + (drdc[d][1] * time)
 
     # move_info 마지막에 최대 길이의 선분을 넣었기 때문에 범위보다 겹치는지 먼저 확인!!
     # 1. 다른 선분과 겹치는지 확인
-    check_result = col_check(r, c, d, time) if c == nc else row_check(r, c, d, time)
-    # 겹친다면 종료
-    if check_result > 0:
+    check_result = check_all(r, c, min(r, nr), min(c, nc), d, time)
+    # 겹치는 선분 존재
+    if check_result > -1:
         end_time = time_sum + check_result
         break
 
@@ -101,11 +123,11 @@ for time_str, d_str in move_info:
         end_time = time_sum + time - (nc - SIZE)
         break
 
-    # 선분 생성
-    snake.append((min(r, nr), min(c, nc), 0 if c == nc else 1, time))
+    # 이번에 생성한 선분 저장
+    snake.append((min(r, nr), min(c, nc), d, time))
 
     # 방향 전환
-    d = (d + (3 if d_str == 'L' else 1)) % 4
+    d = (d + rotate_map[rotate_str]) % 4
 
     time_sum += time
     r, c = nr, nc
