@@ -6,6 +6,9 @@ read = sys.stdin.readline
 def col_check(r, c, d, length):
     # 확인하려는 선분의 위쪽
     up_r = min(r, r + (drdc[d][0] * length))
+    # 확인하려는 선분이 다른 선분을 만나기까지 걸린 시간
+    # 겹치는 선분을 만나자마자 시간을 반환하는 것이 아닌 가장 가까운 선분을 찾아야 한다
+    time = float('inf')
 
     # 이전의 모든 선분과 겹치는지 확인
     for nr, nc, nd, nlength in snake:
@@ -15,20 +18,25 @@ def col_check(r, c, d, length):
                 continue
             # 이번 선분과 겹칠 경우 (겹치는데 몇 초 걸리는지 반환)
             # 뱀의 진행 방향에 따라 계산
-            return (r - (nr + length)) if d == 0 else (nr - r)
+            now_time = (r - (nr + length)) if d == 0 else (nr - r)
+            time = min(time, now_time)
         # 이번 선분은 가로일 경우
         else:
             # 이번 선분과 겹칠 경우 (겹치는데 몇 초 걸리는지 반환)
             if up_r < nr < up_r + length and nc < c < nc + nlength:
-                return abs(r - nr)
+                now_time = abs(r - nr)
+                time = min(time, now_time)
 
-    return 0
+    return 0 if time == float('inf') else time
 
 
 # 확인하려는 선분이 가로일 경우 겹치는 선분이 있는지 체크 (없을 경우 0 반환)
 def row_check(r, c, d, length):
     # 확인하려는 선분의 왼쪽, 오른쪽
     left_c = min(c, c + (drdc[d][1] * length))
+    # 확인하려는 선분이 다른 선분을 만나기까지 걸린 시간
+    # 겹치는 선분을 만나자마자 시간을 반환하는 것이 아닌 가장 가까운 선분을 찾아야 한다
+    time = float('inf')
 
     # 이전의 모든 선분과 겹치는지 확인
     for nr, nc, nd, nlength in snake:
@@ -36,16 +44,18 @@ def row_check(r, c, d, length):
         if nd == 0:
             # 이번 선분과 겹칠 경우 (겹치는데 몇 초 걸리는지 반환)
             if nr < r < nr + nlength and left_c < nc < left_c + length:
-                return abs(c - nc)
+                now_time = abs(c - nc)
+                time = min(time, now_time)
 
         # 이번 선분도 가로일 경우
         else:
             if r != nr or nc + nlength <= left_c or left_c + length <= nc:
                 continue
             # 이번 선분과 겹칠 경우 (겹치는데 몇 초 걸리는지 반환)
-            return (nc - c) if d == 1 else (c - (nc + nlength))
+            now_time = (nc - c) if d == 1 else (c - (nc + nlength))
+            time = min(time, now_time)
 
-    return 0
+    return 0 if time == float('inf') else time
 
 
 drdc = [[-1, 0], [0, 1], [1, 0], [0, -1]]  # 북동남서
