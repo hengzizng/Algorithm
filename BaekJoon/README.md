@@ -73,6 +73,7 @@
 - [`2310 (어드벤처 게임)`](https://www.acmicpc.net/problem/2310)
 - [`18430 (무기 공학)`](https://www.acmicpc.net/problem/18430)
 - [10159 (저울)](https://www.acmicpc.net/problem/10159)
+- [18429 (근손실)](https://www.acmicpc.net/problem/18429)
 
 > ### Union Find
 
