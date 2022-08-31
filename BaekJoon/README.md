@@ -179,6 +179,7 @@
 - [`18428 (감시 피하기)`](https://www.acmicpc.net/problem/18428)
 - [2174 (로봇 시뮬레이션)](https://www.acmicpc.net/problem/2174)
 - [`10875 (뱀)`](https://www.acmicpc.net/problem/10875)
+- [`3954 (Brainf**k 인터프리터)`](https://www.acmicpc.net/problem/3954)
 
 > ### Else
 
