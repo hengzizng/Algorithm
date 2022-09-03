@@ -23,9 +23,7 @@
 - [10451 (순열 사이클)](https://www.acmicpc.net/problem/10451)
 - [9466 (텀 프로젝트)](https://www.acmicpc.net/problem/9466)
 - [4963 (섬의 개수)](https://www.acmicpc.net/problem/4963)
-- [7576 (토마토)](https://www.acmicpc.net/problem/7576)  
-  -> 2021-05-19 재채점 결과 런타임 에러 발생으로 2021-05-20 재풀이
-
+- [7576 (토마토)](https://www.acmicpc.net/problem/7576)
 - [2146 (다리 만들기)](https://www.acmicpc.net/problem/2146)
 - [5427 (불)](https://www.acmicpc.net/problem/5427)
 - [1068 (트리)](https://www.acmicpc.net/problem/1068)
