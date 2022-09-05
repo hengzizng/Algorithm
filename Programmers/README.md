@@ -129,3 +129,4 @@
 - [다단계 칫솔 판매](https://programmers.co.kr/learn/courses/30/lessons/77486)
 - [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
 - [`행렬과 연산`](https://school.programmers.co.kr/learn/courses/30/lessons/118670)
+- [`광고 삽입`](https://school.programmers.co.kr/learn/courses/30/lessons/72414)
