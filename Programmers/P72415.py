@@ -8,7 +8,6 @@ def solution(board, r, c):
             return
 
         if count == pair_count * 2:
-            print(order)
             min_move[0] = distance_sum
             return
 
@@ -30,21 +29,20 @@ def solution(board, r, c):
             order[count] = no
             order[count + 1] = no + MAX_PAIR
             # 이번에 방문한 두 개의 카드 enter 명령어를 포함한 이동 거리(조작 횟수)를 구한다.
-            distance = 2
-            if count >= 1:
-                distance += get_distance(*cards_loc[before], r1, c1)
-            distance += get_distance(r1, c1, r2, c2)
+            distance = 0
+            distance += get_distance(*cards_loc[before], r1, c1) + 1
+            distance += get_distance(r1, c1, r2, c2) + 1
             # 다음으로 다른 카드 방문
-            set_order(count + 2, distance_sum + distance, no + MAX_PAIR, order, visited)
+            set_order(count + 2, distance_sum + distance,
+                      no + MAX_PAIR, order, visited)
 
             # 뒷번호부터 방문
             order[count] = no + MAX_PAIR
             order[count + 1] = no
             # 이번에 방문한 두 개의 카드 enter 명령어를 포함한 이동 거리(조작 횟수)를 구한다.
-            distance = 2
-            if count >= 1:
-                distance += get_distance(*cards_loc[before], r2, c2)
-            distance += get_distance(r2, c2, r1, c1)
+            distance = 0
+            distance += get_distance(*cards_loc[before], r2, c2) + 1
+            distance += get_distance(r2, c2, r1, c1) + 1
             # 다음으로 다른 카드 방문
             set_order(count + 2, distance_sum + distance, no, order, visited)
 
@@ -123,16 +121,16 @@ def solution(board, r, c):
                 cards_loc[no] = (row, col)
 
     # 시작 위치 설정
-    start_no = 17
+    start_no = board[r][c]
     if board[r][c] == 0:
         cards_loc[17] = (r, c)
-    else:
-        start_no = board[r][c]
+        start_no = 17
 
     # 모든 카드를 제거하기 위한 최소 조작 횟수
     min_move = [float('inf')]
     # 카드 방문 순서를 정하고 순서에 따른 조작 횟수를 구한다. ((r, c)에서 시작)
-    set_order(0, 0, start_no, [0] * (pair_count * 2), [False] * (MAX_PAIR * 2 + 1))
+    set_order(0, 0, start_no, [0] * (pair_count * 2),
+              [False] * (MAX_PAIR * 2 + 1))
 
     return min_move[0]
 
