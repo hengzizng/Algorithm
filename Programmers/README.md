@@ -78,6 +78,7 @@
 - [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341)
 - [`기둥과 보 설치`](https://programmers.co.kr/learn/courses/30/lessons/43162)
 - [`파괴되지 않은 건물`](https://school.programmers.co.kr/learn/courses/30/lessons/92344)
+- [`카드 짝 맞추기`](https://school.programmers.co.kr/learn/courses/30/lessons/72415)
 
 > ### - Else
 

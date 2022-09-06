@@ -3,14 +3,17 @@ from collections import deque
 
 def solution(board, r, c):
     # 카드 방문 순서를 정한다. (같은 카드는 무조건 연속해서 방문) => 최대 8*7*6*5*4*3*2*1 * 2^8 번
-    def set_order(count, distance_sum, before, order, visited):
+    def set_order(count, distance_sum, before, visited):
+        # 이미 구한 최소 조작 수와 같거나 크다면
         if min_move[0] <= distance_sum:
             return
 
+        # 모든 카드를 다 방문했다면
         if count == pair_count * 2:
             min_move[0] = distance_sum
             return
 
+        # 카드쌍별로 방문
         for no in range(1, pair_count + 1):
             # 아직 방문하지 않은 카드쌍일 경우에만 방문
             if visited[no]:
@@ -20,13 +23,13 @@ def solution(board, r, c):
             r1, c1 = cards_loc[no]
             r2, c2 = cards_loc[no + MAX_PAIR]
 
-            # 앞번호부터 방문
-            order[count] = no
-            order[count + 1] = no + MAX_PAIR
             # 이번에 방문한 두 개의 카드 enter 명령어를 포함한 이동 거리(조작 횟수)를 구한다.
-            distance = 0
-            distance += get_distance(*cards_loc[before], r1, c1) + 1
-            distance += get_distance(r1, c1, r2, c2) + 1
+            # 앞번호부터 방문
+            distance1 = get_distance(*cards_loc[before], r1, c1) + 1
+            distance1 += get_distance(r1, c1, r2, c2) + 1
+            # 뒷번호부터 방문
+            distance2 = get_distance(*cards_loc[before], r2, c2) + 1
+            distance2 += get_distance(r2, c2, r1, c1) + 1
 
             # 방문 처리 (거리를 구한 뒤에 방문처리 해주어야 함!)
             visited[no] = True
@@ -34,17 +37,8 @@ def solution(board, r, c):
             board[r2][c2] = 0
 
             # 다음으로 다른 카드 방문
-            set_order(count + 2, distance_sum + distance, no + MAX_PAIR, order, visited)
-
-            # 뒷번호부터 방문
-            order[count] = no + MAX_PAIR
-            order[count + 1] = no
-            # 이번에 방문한 두 개의 카드 enter 명령어를 포함한 이동 거리(조작 횟수)를 구한다.
-            distance = 0
-            distance += get_distance(*cards_loc[before], r2, c2) + 1
-            distance += get_distance(r2, c2, r1, c1) + 1
-            # 다음으로 다른 카드 방문
-            set_order(count + 2, distance_sum + distance, no, order, visited)
+            set_order(count + 2, distance_sum + distance1, no + MAX_PAIR, visited)
+            set_order(count + 2, distance_sum + distance2, no, visited)
 
             # 방문 해제 처리
             visited[no] = False
@@ -77,8 +71,8 @@ def solution(board, r, c):
                     if (nr, nc) not in visited:
                         queue.append((nr, nc, distance + 1))
                         visited.add((nr, nc))
+                # 한 칸도 이동할 수 없는 경우는 Ctrl + 방향키로도 이동할 수 없음
                 else:
-                    # 한 칸도 이동할 수 없는 경우는 Ctrl + 방향키로도 이동할 수 없음
                     continue
 
                 # Ctrl + 방향키 로 이동
@@ -129,7 +123,7 @@ def solution(board, r, c):
     # 모든 카드를 제거하기 위한 최소 조작 횟수
     min_move = [float('inf')]
     # 카드 방문 순서를 정하고 순서에 따른 조작 횟수를 구한다. ((r, c)에서 시작)
-    set_order(0, 0, start_no, [0] * (pair_count * 2), [False] * (MAX_PAIR * 2 + 1))
+    set_order(0, 0, start_no, [False] * (MAX_PAIR * 2 + 1))
 
     return min_move[0]
 
