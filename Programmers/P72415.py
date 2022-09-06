@@ -20,11 +20,6 @@ def solution(board, r, c):
             r1, c1 = cards_loc[no]
             r2, c2 = cards_loc[no + MAX_PAIR]
 
-            # 방문 처리
-            visited[no] = True
-            board[r1][c1] = 0
-            board[r2][c2] = 0
-
             # 앞번호부터 방문
             order[count] = no
             order[count + 1] = no + MAX_PAIR
@@ -32,9 +27,14 @@ def solution(board, r, c):
             distance = 0
             distance += get_distance(*cards_loc[before], r1, c1) + 1
             distance += get_distance(r1, c1, r2, c2) + 1
+
+            # 방문 처리 (거리를 구한 뒤에 방문처리 해주어야 함!)
+            visited[no] = True
+            board[r1][c1] = 0
+            board[r2][c2] = 0
+
             # 다음으로 다른 카드 방문
-            set_order(count + 2, distance_sum + distance,
-                      no + MAX_PAIR, order, visited)
+            set_order(count + 2, distance_sum + distance, no + MAX_PAIR, order, visited)
 
             # 뒷번호부터 방문
             order[count] = no + MAX_PAIR
@@ -129,8 +129,7 @@ def solution(board, r, c):
     # 모든 카드를 제거하기 위한 최소 조작 횟수
     min_move = [float('inf')]
     # 카드 방문 순서를 정하고 순서에 따른 조작 횟수를 구한다. ((r, c)에서 시작)
-    set_order(0, 0, start_no, [0] * (pair_count * 2),
-              [False] * (MAX_PAIR * 2 + 1))
+    set_order(0, 0, start_no, [0] * (pair_count * 2), [False] * (MAX_PAIR * 2 + 1))
 
     return min_move[0]
 
