@@ -38,6 +38,7 @@
   : dfs 사용한 완전탐색
 - [`양과 늑대`](https://programmers.co.kr/learn/courses/30/lessons/92343)  
   : dfs 사용한 완전탐색
+- [`외벽 점검`](https://school.programmers.co.kr/learn/courses/30/lessons/60062)
 
 > ### - Stack & Queue
 

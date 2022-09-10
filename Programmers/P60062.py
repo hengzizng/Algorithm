@@ -1,75 +1,60 @@
-from heapq import heappush, heappop
+import sys
+read = sys.stdin.readline
 
 
 def solution(n, weak, dist):
-    # 위치가 속한 집합의 대표값을 찾는다.
-    def find(spot):
-        while spot != parent[spot]:
-            parent[spot] = parent[parent[spot]]
-            spot = parent[spot]
-        return spot
-    
-    # 두 위치를 한 집합에 넣는다.
-    def union(distance, spot1, spot2):
-        parent1 = find(spot1)
-        parent2 = find(spot2)
-        parent[parent2] = parent1
-        
-        # 두 위치가 이미 같은 집합이었다면
-        if parent1 == parent2:
+    # dist 중 공사에 사용될 값을 선택 (is_put: 공사에 투입되었는지 여부)
+    def select_friend(count, selected, is_put):
+        if answer[0] > -1:
             return
-        
-        # 두 집합이 합쳐졌다면 두 개의 대표값 중 하나 제거
-        parent_set.remove(parent2)
-        distance_by_parent[parent1] += distance_by_parent.pop(parent2) + distance
-        
-    
-    # 현재 만들어진 집합들을 모두 방문할 수 있는지
-    def is_valid():
-        # 방문해야 할 위치 집합이 친구 수보다 많다면
-        if len(parent_set) > len(dist):
-            return False
-        
-        # 방문해야 할 위치 집합별 거리 중 친구들이 방문할 수 없는 거리가 있다면
-        distance_list = sorted(list(distance_by_parent.values()))
-        for i in range(len(distance_list)):
-            if dist[i] < distance_list[i]:
+
+        if target_count == count:
+            # 시작점을 변경해가며 점검 가능한지 확인
+            for start in range(len(weak)):
+                if check(start, selected):
+                    answer[0] = count
+                    break
+            return
+
+        for i in range(len(dist)):
+            if not is_put[i]:
+                is_put[i] = True
+                selected[count] = dist[i]
+                select_friend(count + 1, selected, is_put)
+                is_put[i] = False
+
+    # 시작점(weak 중 한 지점)에서부터 selected로 점검 가능한지 확인
+    def check(start, selected):
+        selected_idx = 0  # selected의 인덱스 변수
+        dist_sum = 0  # selected[selected_idx]로 점검할 거리의 합
+        for i in range(start, start + len(weak) - 1):  # 각 지점 순회
+            now_idx = i % len(weak)  # 이번에 점검할 지점의 인덱스
+            next_idx = (i + 1) % len(weak)  # 다음에 점검할 지점의 인덱스
+            # 이번에 점검할 지점과 다음에 점검할 지점 사이 거리
+            now_dist = weak[next_idx] - weak[now_idx]
+            if now_idx > next_idx:
+                now_dist = (weak[next_idx] + n) - weak[now_idx]
+
+            # 현재 점검중인 친구가 다음 지점까지 점검할 수 없다면
+            dist_sum += now_dist
+            if dist_sum > selected[selected_idx]:
+                selected_idx += 1
+                dist_sum = 0
+
+            if selected_idx == len(selected):
                 return False
 
         return True
-    
-    
-    dist.sort(reverse=True) # 각 친구의 이동 거리 내림차순 정렬
-    
-    parent = {} # 각 위치가 속한 집합의 대표값
-    parent_set = set() # 만들어진 집합들의 대표값 집합
-    distance_by_parent = {} # 각 집합별 거리
-    # 초기화
-    for spot in weak:
-        parent[spot] = spot
-        parent_set.add(spot)
-        distance_by_parent[spot] = 0
-    
-    # 각 위치에서 다른 모든 위치까지의 최소 거리를 구한다.
-    distances = [] # (거리, 위치1, 위치2)
-    for i in range(len(weak)):
-        for j in range(i + 1, len(weak)):
-            spot1, spot2 = weak[i], weak[j]
-            
-            distance = min(spot2 - spot1, spot1 + n - spot2)
-            heappush(distances, (distance, spot1, spot2))
-    
-    # 거리가 짧은 순으로 반복해서 집합을 만들다가 모든 위치를 방문했다면 중단
-    friend_count = n
-    while distances:
-        distance, spot1, spot2 = heappop(distances)
-        union(distance, spot1, spot2)
-        
-        # 방문 가능한 상태라면 친구 수 갱신
-        if is_valid():
-            friend_count = min(friend_count, len(parent_set))
-        
-        # if len(parent_set) == 1:
-        #     break
-    
-    return -1 if friend_count == n else friend_count
+
+    answer = [-1]
+    for target_count in range(1, len(dist) + 1):
+        if answer[0] == -1:
+            select_friend(0, [-1] * target_count, [False] * len(dist))
+        else:
+            break
+
+    return answer[0]
+
+
+print(solution(12, [1, 5, 6, 10], [1, 2, 3, 4]), ":", 2)
+print(solution(12, [1, 3, 4, 9, 10], [3, 5, 7]), ":", 1)
