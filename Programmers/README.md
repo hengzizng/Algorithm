@@ -80,6 +80,7 @@
 - [`기둥과 보 설치`](https://programmers.co.kr/learn/courses/30/lessons/43162)
 - [`파괴되지 않은 건물`](https://school.programmers.co.kr/learn/courses/30/lessons/92344)
 - [`카드 짝 맞추기`](https://school.programmers.co.kr/learn/courses/30/lessons/72415)
+- [`블록 이동하기`](https://school.programmers.co.kr/learn/courses/30/lessons/60063)
 
 > ### - Else
 
