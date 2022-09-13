@@ -27,18 +27,14 @@
 > ### - BFS & DFS
 
 - [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
-  : DFS로 조합 구하기
-- [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)  
-  : 풀이 2 > bfs 알고리즘 사용해서 최단거리 중 가장 멀리 있는 노드의 수 구하기
-- [퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021)  
-  : bfs를 사용해 퍼즐 조각과 빈 칸을 찾아 맞출 수 있는 칸 수 구하기
+- [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
+- [퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021)
 - [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)
 - [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
-- [양궁대회](https://programmers.co.kr/learn/courses/30/lessons/92342)  
-  : dfs 사용한 완전탐색
-- [`양과 늑대`](https://programmers.co.kr/learn/courses/30/lessons/92343)  
-  : dfs 사용한 완전탐색
+- [양궁대회](https://programmers.co.kr/learn/courses/30/lessons/92342)
+- [`양과 늑대`](https://programmers.co.kr/learn/courses/30/lessons/92343)
 - [`외벽 점검`](https://school.programmers.co.kr/learn/courses/30/lessons/60062)
+- [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890)
 
 > ### - Stack & Queue
 
@@ -47,13 +43,11 @@
 
 > ### - Union Find
 
-- [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)  
-  : union find 사용해서 네트워크 수 구하기
+- [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
 
 > ### - Dijkstra
 
-- [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)  
-  : 풀이 1 > dijkstra 알고리즘 사용해서 최단거리 중 가장 멀리 있는 노드의 수 구하기
+- [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
 - [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
 - [`등산코스 정하기`](https://school.programmers.co.kr/learn/courses/30/lessons/118669)
 
@@ -63,8 +57,7 @@
 - [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)
 - [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897)
 - [`N으로 표현`](https://programmers.co.kr/learn/courses/30/lessons/42895)
-- [퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021)  
-  : bfs를 사용해 퍼즐 조각과 빈 칸을 찾아 맞출 수 있는 칸 수 구하기
+- [퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021)
 - [`코딩 테스트 공부`](https://school.programmers.co.kr/learn/courses/30/lessons/118668)
 
 > ### - Greedy
@@ -93,9 +86,7 @@
 - [로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484)
 - [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048)
 - [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835)
-  : 완전탐색 & 백트래킹
 - [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
-  : 완전탐색
 - [없는 숫자 더하기](https://programmers.co.kr/learn/courses/30/lessons/86051)
 - [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501)
 - [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
@@ -110,15 +101,11 @@
 - [`입실 퇴실`](https://programmers.co.kr/learn/courses/30/lessons/86048)
 - [`최소직사각형`](https://programmers.co.kr/learn/courses/30/lessons/86491)
 - [`입국심사`](https://programmers.co.kr/learn/courses/30/lessons/43238)
-  : 이분탐색으로 심사를 받을 수 있는 최소 시간 구하기
-  -> 아이디어 혼자 다시 생각해보기
 - [`완주하지 못한 선수`](https://programmers.co.kr/learn/courses/30/lessons/42576)
-  -> 아이디어 혼자 다시 생각해보기
 - [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
 - [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
 - [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845)
 - [`124 나라의 숫자`](https://programmers.co.kr/learn/courses/30/lessons/12899)
-  -> 아이디어 혼자 다시 생각해보기
 - [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
 - [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)
 - [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
