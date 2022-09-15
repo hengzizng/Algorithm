@@ -6,11 +6,11 @@
 
 - `다시 풀어볼 문제들`
 
------
+---
 
 ## Programmers
 
-> ### - SQL
+> ### SQL
 
 - [오랜 기간 보호한 동물(2)](https://programmers.co.kr/learn/courses/30/lessons/59411)  
   : MySQL, Oracle
@@ -24,7 +24,7 @@
 - [`보호소에서 중성화한 동물`](https://programmers.co.kr/learn/courses/30/lessons/59045)  
   : MySQL(INNER JOIN 사용)
 
-> ### - BFS & DFS
+> ### BFS & DFS
 
 - [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
 - [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
@@ -41,17 +41,17 @@
 - [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)
 - [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
 
-> ### - Union Find
+> ### Union Find
 
 - [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
 
-> ### - Dijkstra
+> ### Dijkstra
 
 - [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
 - [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
 - [`등산코스 정하기`](https://school.programmers.co.kr/learn/courses/30/lessons/118669)
 
-> ### - Dynamic Programming
+> ### Dynamic Programming
 
 - [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)
 - [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)
@@ -60,12 +60,12 @@
 - [퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021)
 - [`코딩 테스트 공부`](https://school.programmers.co.kr/learn/courses/30/lessons/118668)
 
-> ### - Greedy
+> ### Greedy
 
 - [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
 - [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
 
-> ### - Simulation
+> ### Simulation
 
 - [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485)
 - [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)
@@ -75,7 +75,7 @@
 - [`카드 짝 맞추기`](https://school.programmers.co.kr/learn/courses/30/lessons/72415)
 - [`블록 이동하기`](https://school.programmers.co.kr/learn/courses/30/lessons/60063)
 
-> ### - Else
+> ### Else
 
 - [다단계 칫솔 판매](https://programmers.co.kr/learn/courses/30/lessons/77486)
 - [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301)
