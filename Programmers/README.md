@@ -121,3 +121,4 @@
 - [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
 - [`행렬과 연산`](https://school.programmers.co.kr/learn/courses/30/lessons/118670)
 - [`광고 삽입`](https://school.programmers.co.kr/learn/courses/30/lessons/72414)
+- [`무지의 먹방 라이브`](https://school.programmers.co.kr/learn/courses/30/lessons/42891)
