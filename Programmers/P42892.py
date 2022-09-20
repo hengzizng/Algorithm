@@ -1,4 +1,6 @@
 from collections import defaultdict
+import sys
+sys.setrecursionlimit(10**6)
 
 
 def solution(nodeinfo):
@@ -54,3 +56,8 @@ print(solution([[5, 3], [11, 5], [13, 3], [3, 5],
       [6, 1], [1, 3], [8, 6], [7, 2], [2, 2]]))
 print([[7, 4, 6, 9, 1, 8, 5, 2, 3], [9, 6, 5, 8, 1, 4, 3, 2, 7]])
 print("-------")
+print(solution([[0, 0]]))
+print([[1], [1]])
+print("-------")
+print(solution([[0, 0], [100000, 1000000]]))
+print([[2, 1], [1, 2]])

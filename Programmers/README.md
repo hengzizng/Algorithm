@@ -6,7 +6,7 @@
 
 - `다시 풀어볼 문제들`
 
------
+---
 
 ## Programmers
 
@@ -35,6 +35,7 @@
 - [`양과 늑대`](https://programmers.co.kr/learn/courses/30/lessons/92343)
 - [`외벽 점검`](https://school.programmers.co.kr/learn/courses/30/lessons/60062)
 - [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890)
+- [`길 찾기 게임`](https://school.programmers.co.kr/learn/courses/30/lessons/42892)
 
 > ### Stack & Queue
 
