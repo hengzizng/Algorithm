@@ -78,6 +78,7 @@
 - [16562 (친구비)](https://www.acmicpc.net/problem/16562)
 - [`4195 (친구 네트워크)`](https://www.acmicpc.net/problem/4195)
 - [1765 (닭싸움 팀 정하기)](https://www.acmicpc.net/problem/1765)
+- [17199 (Milk Factory)](https://www.acmicpc.net/problem/17199)
 
 > ### MST(Minimum Spanning Tree, 최소 신장 트리)
 
