@@ -216,3 +216,4 @@
 - [`4256 (트리)`](https://www.acmicpc.net/problem/4256)
 - [`10800 (컬러볼)`](https://www.acmicpc.net/problem/10800)
 - [16967 (배열 복원하기)](https://www.acmicpc.net/problem/16967)
+- [10655 (마라톤 1)](https://www.acmicpc.net/problem/10655)
