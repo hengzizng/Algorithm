@@ -72,6 +72,7 @@
 - [`18430 (무기 공학)`](https://www.acmicpc.net/problem/18430)
 - [10159 (저울)](https://www.acmicpc.net/problem/10159)
 - [18429 (근손실)](https://www.acmicpc.net/problem/18429)
+- [12919 (A와 B 2)](https://www.acmicpc.net/problem/12919)
 
 > ### Union Find
 
