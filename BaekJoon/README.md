@@ -126,6 +126,7 @@
 - [`12869 (뮤탈리스크)`](https://www.acmicpc.net/problem/12869)
 - [`10653 (마라톤 2)`](https://www.acmicpc.net/problem/10653)
 - [`1135 (뉴스 전하기)`](https://www.acmicpc.net/problem/1135)
+- [`10830 (행렬 제곱)`](https://www.acmicpc.net/problem/10830)
 
 > ### Simulation
 
