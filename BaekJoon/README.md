@@ -94,6 +94,7 @@
 - [`11779 (최소비용 구하기 2)`](https://www.acmicpc.net/problem/11779)
 - [2211 (네트워크 복구)](https://www.acmicpc.net/problem/2211)
 - [`5719 (거의 최단 경로)`](https://www.acmicpc.net/problem/5719)
+- [5972 (택배 배송)](https://www.acmicpc.net/problem/5972)
 
 > ### Floyd-Warshall
 
