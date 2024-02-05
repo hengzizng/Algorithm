@@ -74,6 +74,7 @@
 - [18429 (근손실)](https://www.acmicpc.net/problem/18429)
 - [12919 (A와 B 2)](https://www.acmicpc.net/problem/12919)
 - [17141 (연구소 2)](https://www.acmicpc.net/problem/17141)
+- [22251 (빌런 호석)](https://www.acmicpc.net/problem/22251)
 
 > ### Union Find
 
