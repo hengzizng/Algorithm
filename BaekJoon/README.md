@@ -184,6 +184,7 @@
 - [`10875 (뱀)`](https://www.acmicpc.net/problem/10875)
 - [`3954 (Brainf**k 인터프리터)`](https://www.acmicpc.net/problem/3954)
 - [2933 (미네랄)](https://www.acmicpc.net/problem/2933)
+- [`18808 (스티커 붙이기)`](https://www.acmicpc.net/problem/18808)
 
 > ### Else
 
